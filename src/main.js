@@ -13,7 +13,6 @@ import { faDev } from '@fortawesome/free-brands-svg-icons'
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faJsSquare } from '@fortawesome/free-brands-svg-icons'
-import { faJs } from '@fortawesome/free-brands-svg-icons'
 import { faMailchimp } from '@fortawesome/free-brands-svg-icons'
 import { faNode } from '@fortawesome/free-brands-svg-icons'
 import { faPhp } from '@fortawesome/free-brands-svg-icons'
@@ -25,9 +24,9 @@ import { faGulp } from '@fortawesome/free-brands-svg-icons'
 import { faGitAlt } from '@fortawesome/free-brands-svg-icons'
 import { faElementor } from '@fortawesome/free-brands-svg-icons'
 import { faCodepen } from '@fortawesome/free-brands-svg-icons'
-import { faVuejs } from '@fortawesome/free-brands-svg-icons'
 import { faCss3Alt } from '@fortawesome/free-brands-svg-icons'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
+import { faJs, faVuejs } from '@fortawesome/free-brands-svg-icons'
 
 library.add(faFontAwesome)
 library.add(faUserSecret)
@@ -37,7 +36,6 @@ library.add(faDev)
 library.add(faHtml5)
 library.add(faInstagram)
 library.add(faJsSquare)
-library.add(faJs)
 library.add(faMailchimp)
 library.add(faNode)
 library.add(faPhp)
@@ -49,9 +47,9 @@ library.add(faGulp)
 library.add(faGitAlt)
 library.add(faElementor)
 library.add(faCodepen)
-library.add(faVuejs)
 library.add(faCss3Alt)
 library.add(faReact)
+library.add(faJs, faVuejs)
 
 
 

@@ -1,11 +1,17 @@
 <template>
-<div>
-    <div class="bgIntro">
-        <h1 class="center">This is my intro</h1>
-    </div>
+<div class="bgIntro">
+  <div class="container">
+    <div class="child">
+  <vue-typed-js :showCursor="true" :typeSpeed="300" :strings="['Matt Felton.', 'a front-end developer.']">
+    <h1 class="typeHeading">Hi, I'm <span class="typing"></span></h1>
+  </vue-typed-js>
+  <!-- <vue-typed-js :startDelay="5000" :typeSpeed="300" :strings="['Front-end web developer.']">
+    <h1 class="typeHeading">I'm a <span class="typing"></span></h1>
+  </vue-typed-js> -->
+  </div>
+  </div>
   </div>
 </template>
-
 
 <script>
 export default {
@@ -14,6 +20,12 @@ export default {
     msg: String
   }
 }
+
+    
+
+
+
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -38,14 +50,38 @@ a {
 }
 
 .bgIntro {
-    background: #252525;
+    background: #252A34;
     height: 100vh;
     width: 100vw;
+    
 }
+
+.container .child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typeHeading {
+  margin-bottom: -10em;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
 
 .center {
   margin: auto;
   width: 50%;
   padding: 10px;
+}
+
+.typeHeading {
+  text-align: center;
 }
 </style>

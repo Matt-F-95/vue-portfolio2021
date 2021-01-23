@@ -9,7 +9,6 @@
   <AboutMe></AboutMe>
   <SkillsBar></SkillsBar>
   <Portfolio></Portfolio>
-  <HelloWorld></HelloWorld>
   <MyFooter></MyFooter>
 </div>
 </template>
@@ -17,7 +16,6 @@
 <script>
   import M from 'materialize-css'
   import Slide from '@/components/Slide.vue'
-  import HelloWorld from '@/components/HelloWorld.vue'
   import IntroSplash from '@/components/IntroSplash.vue'
   import AboutMe from '@/components/AboutMe.vue'
   import SkillsBar from '@/components/SkillsBar.vue'
@@ -30,7 +28,6 @@
     },
     components: {
       Slide,
-      HelloWorld,
       IntroSplash,
       AboutMe,
       SkillsBar,
@@ -52,6 +49,12 @@
   color: #2c3e50;
   background: #1b232e;
 }
+
+
+.bm-burger-bars {
+    background-color: #fff;
+}
+
 
 #nav {
   padding: 30px;

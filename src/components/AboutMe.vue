@@ -4,8 +4,8 @@
         <h2 class="center">A little about me</h2>
         <div class="row">
         <div class="col s4">
-            <img src="#" alt="">
-            <p>hihihihihihi <font-awesome-icon icon="coffee" /> <font-awesome-icon icon="coffee" /> </p>
+           <img class="selfImage" width="200" height="200" alt="Matt Felton" src="@/assets/mattfelton.jpeg">
+           
         </div>
         <div class="col s8">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam ratione esse rem itaque deserunt, cum unde, voluptatem consequuntur quasi maxime iusto laudantium omnis libero magni minus? Consequatur, nesciunt ipsam!</p>
@@ -23,6 +23,8 @@ export default {
     msg: String
   }
 }
+
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -57,4 +59,12 @@ a {
   width: 50%;
   padding: 10px;
 }
+
+.selfImage {
+  width: 100%;
+  height: auto;
+  border-radius: 20%;
+}
+
+
 </style>

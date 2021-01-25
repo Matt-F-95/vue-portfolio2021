@@ -2,7 +2,7 @@
 <div class="bgIntro">
   <div class="container">
     <div class="child">
-  <vue-typed-js :showCursor="true" :typeSpeed="300" :strings="['Matt Felton.', 'a front-end developer.']">
+  <vue-typed-js :showCursor="true" :typeSpeed="200" :strings="['Matt Felton.', 'a front-end developer.']">
     <h1 class="typeHeading">Hi, I'm <span class="typing"></span></h1>
   </vue-typed-js>
   <!-- <vue-typed-js :startDelay="5000" :typeSpeed="300" :strings="['Front-end web developer.']">
@@ -66,6 +66,8 @@ a {
   margin-bottom: -10em;
   color: #fff;
 }
+
+
 
 
 

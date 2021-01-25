@@ -9,6 +9,7 @@
   <AboutMe></AboutMe>
   <SkillsBar></SkillsBar>
   <Portfolio></Portfolio>
+  <ContactSection></ContactSection>
   <MyFooter></MyFooter>
 </div>
 </template>
@@ -21,6 +22,7 @@
   import SkillsBar from '@/components/SkillsBar.vue'
   import Portfolio from '@/components/Portfolio.vue'
   import MyFooter from '@/components/MyFooter.vue'
+  import ContactSection from '@/components/ContactSection.vue'
 
   export default {
     mounted () {
@@ -32,6 +34,7 @@
       AboutMe,
       SkillsBar,
       Portfolio,
+      ContactSection,
       MyFooter
     }
   }

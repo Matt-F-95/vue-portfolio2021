@@ -15,7 +15,7 @@
             <div class="footer-copyright">
                 <div class="container center-align">
                     <div class="row">
-                        <div class="col l12 s4 m4">
+                        <div class="col l12 s12 m12">
                    <a id="copyrightFooter" href="https://mattfelton.com/">Built with <i class="fab fa-vuejs"></i> and <i class="fa fa-coffee"></i> by Matt Felton © 2021</a>
                    </div>
                    </div>

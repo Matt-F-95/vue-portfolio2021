@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from './router'
 import VueTypedJs from 'vue-typed-js'
 Vue.use(VueTypedJs)
+import VueFormulate from '@braid/vue-formulate'
+Vue.use(VueFormulate)
 import 'materialize-css/dist/css/materialize.min.css'
 import 'material-design-icons/iconfont/material-icons.css'
 import { library } from '@fortawesome/fontawesome-svg-core'

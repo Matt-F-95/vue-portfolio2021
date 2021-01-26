@@ -69,6 +69,7 @@
 
     .page-footer {
         background: #1B232E;
+        margin-top: -20px;
     }
 
     .fa-instagram {

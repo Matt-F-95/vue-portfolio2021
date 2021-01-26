@@ -1,5 +1,5 @@
 <template>
-<div class="bgIntro">
+<div class="bgIntro" id="home">
   <div class="container">
     <div class="child">
   <vue-typed-js :showCursor="true" :typeSpeed="200" :strings="['Matt Felton.', 'a front-end developer.']">

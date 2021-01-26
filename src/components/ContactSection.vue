@@ -1,13 +1,13 @@
 <template>
-  <div>
-      <h2 class="center-align">Let's Connect</h2>
-      <div class="container">
+    <div class="contactArea">
+      <div class="container" id="contact">
           <div class="row">
-              <div class="col s12 m12 l6 flexin">
+              <div class="col s12 m12 l12">
+                   <h2 class="center-align">Let's Connect</h2>
           <FormulateInput type="text" placeholder="First Name" />
           <FormulateInput type="text" placeholder="Last Name" />
           <FormulateInput type="email" placeholder="youremail@yourprovider.com" name="email" validation="required|email" error-behavior="live"/>
-          <FormulateInput type="textarea" validation="required|max:5000,length" validation-name="Message"/>
+          <FormulateInput type="textarea" validation="required|max:1000,length" validation-name="Message"/>
           <FormulateForm @submit="showAlert">
           <FormulateInput type="submit" name="Send message"/>
           </FormulateForm>
@@ -28,8 +28,12 @@ export default {
 
 <style>
 /* @import '../node_modules/@braid/vue-formulate/themes/snow/snow.scss'; */
-/* .flexin {
-    display: flex;
-    flex-direction: row;
-} */
+.contactArea {
+    background: #252934;
+    margin-bottom:0;
+    padding: 100px 0px 100px 0px;
+    color: #fff;
+    
+}
+
 </style>

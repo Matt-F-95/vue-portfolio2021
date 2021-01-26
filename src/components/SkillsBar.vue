@@ -64,6 +64,8 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .skillHolder i {

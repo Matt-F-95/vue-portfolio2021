@@ -1,14 +1,14 @@
 <template>
 <div>
-    <div class="container">
-        <h2 class="center">A little about me</h2>
+    <div class="container aboutMe" id="about">
+        
         <div class="row">
-        <div class="col s4">
+        <div class="col s12 m4 l4">
            <img class="selfImage" width="200" height="200" alt="Matt Felton" src="@/assets/mattfelton.jpeg">
-           
         </div>
-        <div class="col s8">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam ratione esse rem itaque deserunt, cum unde, voluptatem consequuntur quasi maxime iusto laudantium omnis libero magni minus? Consequatur, nesciunt ipsam!</p>
+        <div class="col s12 m8 l8">
+            <p>I'm Matt, a front-end developer and designer that aspires to make fast, user-friendly, and responsive digital experiences.</p>
+            <p>I graduated from Seneca College's Web Development program in 2017, George Brown's Social Media Marketing in 2018, and from hackerYou's Advanced JavaScript program in 2018. I'm currently a second year student in Durham College's Contemporary Web Design program.</p>
         </div>
     </div>
     </div>
@@ -65,6 +65,12 @@ a {
   height: auto;
   border-radius: 20%;
 }
+
+.aboutMe {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 
 
 </style>

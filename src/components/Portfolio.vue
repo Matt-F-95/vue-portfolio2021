@@ -1,11 +1,11 @@
 <template>
     <div>
-       <div class="container" id="portfolio">
+       <div class="container-fluid" id="portfolio">
             <div class="row">
     <div class="col s12 m4 s1">
       <div class="card">
         <div class="card-image">
-          <img src="@/assets/foe-app-cs.png">
+          <img class="responsive" src="@/assets/foe-app-cs.png">
           <span class="card-title">Family of Eateries</span>
         </div>
         <div class="card-content">
@@ -174,8 +174,21 @@
   .card-title {
     background: #252525;
     width: 100%;
-    text-align: center;
-    height: 10vh;
+    text-align: right;
+   
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #fff !important;
+  }
+  .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+    color: #F50057 !important;
+    transition: .5s;
   }
 
 

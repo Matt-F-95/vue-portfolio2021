@@ -4,7 +4,7 @@
         
         <div class="row">
         <div class="col s12 m4 l4">
-           <img class="selfImage" width="200" height="200" alt="Matt Felton" src="@/assets/mattfelton.jpeg">
+           <img class="selfImage responsive" width="200" height="200" alt="Matt Felton" src="@/assets/mattfelton.jpeg">
         </div>
         <div class="center-align col s12 m8 l8">
             <p>I'm Matt, a front-end developer and designer that aspires to make fast, user-friendly, and responsive digital experiences.</p>

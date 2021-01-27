@@ -4,19 +4,25 @@
         
         <div class="row">
         <div class="col s12 m4 l4">
-           <img class="selfImage" width="200" height="200" alt="Matt Felton" src="@/assets/mattfelton.jpeg">
+           <img class="selfImage responsive" width="200" height="200" alt="Matt Felton" src="@/assets/mattfelton.jpeg">
         </div>
-        <div class="col s12 m8 l8">
+        <div class="center-align col s12 m8 l8">
             <p>I'm Matt, a front-end developer and designer that aspires to make fast, user-friendly, and responsive digital experiences.</p>
             <p>I graduated from Seneca College's Web Development program in 2017, George Brown's Social Media Marketing in 2018, and from hackerYou's Advanced JavaScript program in 2018. I'm currently a second year student in Durham College's Contemporary Web Design program.</p>
+            <a href="#portfolio"><button class="btn waves-effect pink accent-3">SEE MY WORK
+            <i class="fas fa-arrow-down"></i>
+            </button></a>
         </div>
     </div>
     </div>
+   
    </div>
 </template>
 
 
 <script>
+
+// import SkillsBar from '@/components/SkillsBar.vue'
 export default {
   name: 'AboutMe',
   props: {

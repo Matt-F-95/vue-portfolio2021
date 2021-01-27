@@ -105,5 +105,6 @@
 
     #copyrightFooter {
         text-align:center;
+        color: #fff;
     }
 </style>

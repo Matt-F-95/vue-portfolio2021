@@ -2,12 +2,10 @@
 <div class="bgIntro" id="home">
   <div class="container">
     <div class="child">
-  <vue-typed-js :showCursor="true" :typeSpeed="200" :strings="['Matt Felton.', 'a front-end developer.']">
+  <vue-typed-js :showCursor="true" :typeSpeed="100" :strings="['Matt Felton.', 'a front-end developer.']">
     <h1 class="typeHeading">Hi, I'm <span class="typing"></span></h1>
+     
   </vue-typed-js>
-  <!-- <vue-typed-js :startDelay="5000" :typeSpeed="300" :strings="['Front-end web developer.']">
-    <h1 class="typeHeading">I'm a <span class="typing"></span></h1>
-  </vue-typed-js> -->
   </div>
   </div>
   </div>
@@ -65,6 +63,10 @@ a {
 .typeHeading {
   margin-bottom: -10em;
   color: #fff;
+}
+
+span {
+  color: #F50057;
 }
 
 

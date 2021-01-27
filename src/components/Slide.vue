@@ -31,7 +31,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 h3 {
   margin: 40px 0 0;
 }
@@ -42,8 +42,8 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-  text-transform: uppercase;
-  letter-spacing: 3.5px;
+  /* text-transform: uppercase;
+  letter-spacing: 3.5px; */
 }
 a {
   color: #fff;
@@ -53,4 +53,20 @@ a {
 .navColor {
     background: #252934;
 }
+.bm-item-list>* {
+  background: #252525;
+}
+
+.bm-item-list>* span {
+  letter-spacing: 2.5px;
+}
+.bm-item-list>* span:hover {
+  color: #F50057;
+  transition: .5s;
+}
+
+.bm-menu {
+  background: #252525 !important;
+}
+
 </style>

@@ -4,7 +4,6 @@
     <div class="child">
   <vue-typed-js :showCursor="true" :typeSpeed="100" :strings="['Matt Felton.', 'a front-end developer.']">
     <h1 class="typeHeading">Hi, I'm <span class="typing"></span></h1>
-     
   </vue-typed-js>
   </div>
   </div>

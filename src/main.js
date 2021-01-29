@@ -5,6 +5,10 @@ import VueTypedJs from 'vue-typed-js'
 Vue.use(VueTypedJs)
 import VueFormulate from '@braid/vue-formulate'
 Vue.use(VueFormulate)
+import VueScrollSnap from 'vue-scroll-snap'
+Vue.use(VueScrollSnap)
+import { VueElevator } from 'vue-elevator'
+Vue.component('VueElevator', VueElevator)
 import 'materialize-css/dist/css/materialize.min.css'
 import 'material-design-icons/iconfont/material-icons.css'
 import { library } from '@fortawesome/fontawesome-svg-core'

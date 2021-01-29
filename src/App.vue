@@ -4,6 +4,7 @@
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
+
   <Slide></Slide>
   <IntroSplash></IntroSplash>
   <AboutMe></AboutMe>
@@ -11,6 +12,8 @@
   <Portfolio></Portfolio>
   <ContactSection></ContactSection>
   <MyFooter></MyFooter>
+  <VueElevator></VueElevator>
+
 </div>
 </template>
 
@@ -23,6 +26,7 @@
   import Portfolio from '@/components/Portfolio.vue'
   import MyFooter from '@/components/MyFooter.vue'
   import ContactSection from '@/components/ContactSection.vue'
+  import VueElevator from '@/components/VueElevator.vue'
 
   export default {
     mounted () {
@@ -35,6 +39,7 @@
       SkillsBar,
       Portfolio,
       ContactSection,
+      VueElevator,
       MyFooter
     }
   }
@@ -58,6 +63,15 @@
     background-color: #fff;
 }
 
+
+.scroll-snap-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.item {
+  min-height: 50vh;
+}
 
 #nav {
   padding: 30px;

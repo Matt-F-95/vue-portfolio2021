@@ -13,6 +13,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/vue-fontawesome": "^2.0.2",
+    "@guillaumebriday/vue-scroll-progress-bar": "^1.0.0",
     "core-js": "^3.6.5",
     "material-design-icons": "^3.0.1",
     "materialize-css": "^1.0.0-rc.2",
@@ -20,6 +21,8 @@
     "vue-backtotop": "^1.6.1",
     "vue-burger-menu": "^2.0.5",
     "vue-router": "^3.2.0",
+    "vue-scroll-snap": "^0.1.10",
+    "vue-scrollto": "^2.20.0",
     "vue-typed-js": "^0.1.2",
     "vue-ui-preloader": "^1.1.3"
   },
@@ -31,6 +34,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "vue-elevator": "^1.1.4",
     "vue-template-compiler": "^2.6.11"
   }
 }

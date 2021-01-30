@@ -1,9 +1,10 @@
 <template>
-<div>
+<div class="application">
   <link rel="stylesheet" 
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
+  <VueScrollProgressBar></VueScrollProgressBar>
   <Slide></Slide>
   <IntroSplash></IntroSplash>
   <AboutMe></AboutMe>
@@ -11,6 +12,7 @@
   <Portfolio></Portfolio>
   <ContactSection></ContactSection>
   <MyFooter></MyFooter>
+  <VueElevator></VueElevator>
 </div>
 </template>
 
@@ -23,18 +25,22 @@
   import Portfolio from '@/components/Portfolio.vue'
   import MyFooter from '@/components/MyFooter.vue'
   import ContactSection from '@/components/ContactSection.vue'
+  import VueElevator from '@/components/VueElevator.vue'
+  import VueScrollProgressBar from '@/components/VueScrollProgressBar.vue'
 
   export default {
     mounted () {
       M.AutoInit()
     },
     components: {
+      VueScrollProgressBar,
       Slide,
       IntroSplash,
       AboutMe,
       SkillsBar,
       Portfolio,
       ContactSection,
+      VueElevator,
       MyFooter
     }
   }
@@ -53,11 +59,24 @@
   background: #1b232e;
 }
 
+.application {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 
 .bm-burger-bars {
     background-color: #fff;
 }
 
+.elevator-button {
+  color: #fff !important;
+}
+
+svg {
+  color: #fff !important;
+}
 
 #nav {
   padding: 30px;

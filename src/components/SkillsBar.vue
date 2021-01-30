@@ -12,7 +12,6 @@
        <i class="fab fa-node"></i>
        <i class="fab fa-php"></i>
         <i class="fab fa-git"></i>
-       <!-- <i class="fab fa-shopify"></i> -->
        <i class="fab fa-wordpress"></i>
        <i class="fab fa-gulp"></i>
        <i class="fab fa-less"></i>

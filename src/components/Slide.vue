@@ -63,10 +63,12 @@ a {
 .bm-item-list>* span:hover {
   color: #F50057;
   transition: .5s;
+  background:
 }
 
-.bm-menu {
+.bm-menu .bm-item-list {
   background: #252525 !important;
+
 }
 
 </style>

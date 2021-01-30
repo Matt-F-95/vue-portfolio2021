@@ -12,6 +12,7 @@
             <a href="#portfolio"><button class="btn waves-effect pink accent-3">SEE MY WORK
             <i class="fas fa-arrow-down"></i>
             </button></a>
+           
         </div>
     </div>
     </div>
@@ -22,7 +23,6 @@
 
 <script>
 
-// import SkillsBar from '@/components/SkillsBar.vue'
 export default {
   name: 'AboutMe',
   props: {
@@ -35,6 +35,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 h3 {
   margin: 40px 0 0;
 }
@@ -73,8 +74,8 @@ a {
 }
 
 .aboutMe {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 

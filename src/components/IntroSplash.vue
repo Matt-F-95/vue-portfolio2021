@@ -2,9 +2,15 @@
 <div class="bgIntro" id="home">
   <div class="container">
     <div class="child">
-  <vue-typed-js :showCursor="true" :typeSpeed="100" :strings="['Matt Felton.', 'a front-end developer.']">
+  <vue-typed-js :showCursor="true" :loop="true" :typeSpeed="250" :strings="['Matt Felton.', 'a front-end developer.']">
     <h1 class="typeHeading">Hi, I'm <span class="typing"></span></h1>
   </vue-typed-js>
+
+  </div>
+  </div>
+  <div class="container">
+  <div class="child" id="downArrow">
+  <a href="#aboutMe"><i class="fas fa-arrow-down"></i></a>
   </div>
   </div>
   </div>
@@ -71,7 +77,18 @@ span {
 
 
 
+#downArrow {
+  margin-top: 80vh;
+}
 
+#downArrow i {
+  color: white;
+  border: 5px solid white;
+  background: black;
+  padding: 15px;
+  font-size: 32px;
+  border-radius: 100%;
+}
 
 
 

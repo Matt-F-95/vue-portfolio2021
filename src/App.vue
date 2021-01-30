@@ -1,10 +1,10 @@
 <template>
-<div>
+<div class="application">
   <link rel="stylesheet" 
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
-
+  <VueScrollProgressBar></VueScrollProgressBar>
   <Slide></Slide>
   <IntroSplash></IntroSplash>
   <AboutMe></AboutMe>
@@ -13,7 +13,6 @@
   <ContactSection></ContactSection>
   <MyFooter></MyFooter>
   <VueElevator></VueElevator>
-
 </div>
 </template>
 
@@ -27,12 +26,14 @@
   import MyFooter from '@/components/MyFooter.vue'
   import ContactSection from '@/components/ContactSection.vue'
   import VueElevator from '@/components/VueElevator.vue'
+  import VueScrollProgressBar from '@/components/VueScrollProgressBar.vue'
 
   export default {
     mounted () {
       M.AutoInit()
     },
     components: {
+      VueScrollProgressBar,
       Slide,
       IntroSplash,
       AboutMe,
@@ -58,19 +59,23 @@
   background: #1b232e;
 }
 
+.application {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 
 .bm-burger-bars {
     background-color: #fff;
 }
 
-
-.scroll-snap-container {
-  height: 100vh;
-  width: 100vw;
+.elevator-button {
+  color: #fff !important;
 }
 
-.item {
-  min-height: 50vh;
+svg {
+  color: #fff !important;
 }
 
 #nav {

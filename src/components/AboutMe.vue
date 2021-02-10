@@ -47,8 +47,9 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-a {
-  color: #42b983;
+
+.aboutMe {
+ margin-top: 2em;
 }
 
 .navColor {
@@ -71,11 +72,6 @@ a {
   width: 100%;
   height: auto;
   border-radius: 20%;
-}
-
-.aboutMe {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 
 

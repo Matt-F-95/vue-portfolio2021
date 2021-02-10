@@ -54,7 +54,7 @@ a {
     background: #252934;
 }
 .bm-item-list>* {
-  background: #252525;
+  background: #3F3F41;
 }
 
 .bm-item-list>* span {

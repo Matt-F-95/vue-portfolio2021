@@ -10,7 +10,7 @@
   </div>
   <div class="container">
   <div class="child" id="downArrow">
-  <a href="#aboutMe"><i class="fas fa-arrow-down"></i></a>
+  <a href="#about"><i class="fas fa-arrow-down"></i></a>
   </div>
   </div>
   </div>
@@ -84,10 +84,17 @@ span {
 #downArrow i {
   color: white;
   border: 5px solid white;
-  background: black;
+ 
   padding: 15px;
   font-size: 32px;
   border-radius: 100%;
+}
+
+#downArrow i:hover {
+  transition: 1s;
+  background: #f2f2f2;
+  color: #0c0c0c;
+
 }
 
 

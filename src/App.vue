@@ -9,10 +9,12 @@
   <IntroSplash></IntroSplash>
   <AboutMe></AboutMe>
   <SkillsBar></SkillsBar>
-  <Portfolio></Portfolio>
+  <router-view></router-view>
+  <Portfolio v-show="$route.path === '/'"></Portfolio>
   <ContactSection></ContactSection>
   <MyFooter></MyFooter>
   <VueElevator></VueElevator>
+   
 </div>
 </template>
 
@@ -27,6 +29,8 @@
   import ContactSection from '@/components/ContactSection.vue'
   import VueElevator from '@/components/VueElevator.vue'
   import VueScrollProgressBar from '@/components/VueScrollProgressBar.vue'
+
+
 
   export default {
     mounted () {
@@ -67,7 +71,7 @@
 
 
 .bm-burger-bars {
-    background-color: #fff;
+    background-color: #fff !important;
 }
 
 .elevator-button {

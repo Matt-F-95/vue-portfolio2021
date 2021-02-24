@@ -19,8 +19,8 @@ export default {
       // If default is what you like, just don't use related key-value pair and ignore it.
       word: "BACK TO TOP",
       duration: 4000,
-      mainAudio: "http://tholman.com/elevator.js/music/elevator.mp3",
-      endAudio: "http://tholman.com/elevator.js/music/ding.mp3",
+      mainAudio: "",
+      endAudio: "",
     }
   }
     

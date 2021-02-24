@@ -82,18 +82,16 @@ span {
 }
 
 #downArrow i {
-  color: white;
-  border: 5px solid white;
- 
-  padding: 15px;
+  color: #f2f2f2;
+  padding: 10px;
   font-size: 32px;
-  border-radius: 100%;
 }
 
 #downArrow i:hover {
   transition: 1s;
-  background: #f2f2f2;
-  color: #0c0c0c;
+  background: #F50057;
+  color: #f2f2f2;
+  border-radius: 50%;
 
 }
 

@@ -16,8 +16,9 @@
           <i class="fab fa-js"></i>
         </div>
         <div class="card-action">
-          <a href="#">Case Study</a>
-          <a href="#"><i class="fab fa-github"></i></a>
+           <router-link v-on:click="isHidden = !isHidden" to="/foeapp">Case Study</router-link>
+          <a href="https://staging.mattfelton.com/foe-app/" target="_blank">View Live</a>
+          <a href="https://github.com/Matt-F-95/foe-app" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </div>
     </div>
@@ -29,15 +30,18 @@
         </div>
         <div class="card-content">
           <h6>Mad Movies</h6>
-          <p>A Mad Movies dynamic App made with a database.</p>
+          <p>A Dynamic Mad Movies database.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
           <i class="fab fa-php"></i>
         </div>
         <div class="card-action">
-           <a href="#">Case Study</a>
-           <a href="#"><i class="fab fa-github"></i></a>
+          
+          <router-link v-on:click="isHidden = !isHidden" to="/madmovies">Case Study</router-link>
+       
+           <a href="https://staging.mattfelton.com/mmdb/#/splash/" target="_blank">View Live</a>
+           <a href="https://github.com/Matt-F-95/dynamic-mmdb/" target="_blank"><i class="fab fa-github"></i></a>
            
           
         </div>
@@ -59,12 +63,14 @@
           <i class="fab fa-wordpress"></i>
         </div>
         <div class="card-action">
-          <a href="#">Case Study</a>
+          <router-link v-on:click="isHidden = !isHidden" to="/actionltd">Case Study</router-link>
+          <a href="https://staging.mattfelton.com/actionltd/" target="_blank">View Live</a>
           <a href="#"><i class="fab fa-github"></i></a>
         </div>
       </div>
     </div>
   </div>
+  <!-- end portfolio row 1 -->
             <div class="row">
     <div class="col s12 m4 s1">
       <div class="card">
@@ -73,15 +79,16 @@
           <!-- <span class="card-title">Family of Eateries</span> -->
         </div>
         <div class="card-content">
-          <h6>Family Of Eateries</h6>
-          <p>An App made and designed for Family of Eateries.</p>
+          <h6>Vache Photobooth</h6>
+          <p>A Milk Photobooth promotional website utilizing Canvas, Regex, and ES6.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
         </div>
         <div class="card-action">
-          <a href="#">Case Study</a>
-          <a href="#"><i class="fab fa-github"></i></a>
+          <router-link v-on:click="isHidden = !isHidden" to="/vachephotobooth">Case Study</router-link>
+          <a href="https://staging.mattfelton.com/vache-photobooth/" target="_blank">View Live</a>
+          <a href="https://github.com/Matt-F-95/vache-photobooth" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </div>
     </div>
@@ -100,8 +107,11 @@
           <i class="fab fa-php"></i>
         </div>
         <div class="card-action">
-           <a href="#">Case Study</a>
+          <router-link v-on:click="isHidden = !isHidden" to="/actionltd">Case Study</router-link>
+           <a href="https://staging.mattfelton.com/mmdb/#/splash/" target="_blank">View Live</a>
            <a href="#"><i class="fab fa-github"></i></a>
+           
+            
            
           
         </div>
@@ -154,6 +164,8 @@
       </div>
 
     </div>
+
+  
     <!-- <div class="col s12 m4 s1">
       <div class="card">
         <div class="card-image">
@@ -181,8 +193,14 @@
         name: 'Portfolio',
         props: {
             msg: String
-        }
+        },
+         data() {
+            return {
+                isHidden: true
+            }
     }
+    }
+
 </script>
 
 

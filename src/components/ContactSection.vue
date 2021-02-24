@@ -27,13 +27,30 @@ export default {
 </script>
 
 <style>
-/* @import '../node_modules/@braid/vue-formulate/themes/snow/snow.scss'; */
+@import '/@/node_modules/@braid/vue-formulate/themes/snow/snow.scss';
 .contactArea {
     background: #252934;
     margin-bottom:0;
     padding: 100px 0px 100px 0px;
     color: #fff;
     
+}
+
+.contactArea input {
+    color: #f2f2f2;
+}
+
+.contactArea textarea {
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+button {
+    background: #f2f2f2;
+    border: none;
+    padding: 1em;
+    border-radius: .25em;
 }
 
 

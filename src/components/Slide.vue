@@ -12,7 +12,9 @@
   </a>
   <a href="#contact">
     <span>Contact</span>
+     
   </a>
+  
 </Slide>
 </div>
 </template>

@@ -75,7 +75,7 @@
     <div class="col s12 m4 s1">
       <div class="card">
         <div class="card-image">
-          <img class="responsive" src="@/assets/foe-mockup.jpg" alt="family of eateries app mockup">
+          <img class="responsive" src="@/assets/vache-photobooth-rs.jpg" alt="Vache Photobooth">
           <!-- <span class="card-title">Family of Eateries</span> -->
         </div>
         <div class="card-content">
@@ -95,7 +95,7 @@
     <div class="col s12 m4 s1">
       <div class="card">
         <div class="card-image">
-          <img  src="@/assets/madmovies-mockup.jpg" alt="Mad Movies App Mockup">
+          <img  src="@/assets/coming-soon-mockup.jpg" alt="Coming soon">
           <!-- <span class="card-title">Mad Movies</span> -->
         </div>
         <div class="card-content">
@@ -120,7 +120,7 @@
     <div class="col s12 m4 s1">
       <div class="card">
         <div class="card-image">
-          <img src="@/assets/action-mockup.jpg" alt="Action Custom WordPress mockup.">
+          <img src="@/assets/coming-soon-mockup.jpg" alt="Coming soon mockup">
           <!-- <span class="card-title">MMDB</span> -->
         </div>
         <div class="card-content">
@@ -145,7 +145,7 @@
               <div class="col s12 m4 s1">
       <div class="card">
         <div class="card-image">
-          <img src="@/assets/action-mockup.jpg" alt="Action Custom WordPress mockup.">
+          <img src="@/assets/coming-soon-mockup.jpg" alt="Coming soon mockup.">
           <!-- <span class="card-title">MMDB</span> -->
         </div>
         <div class="card-content">

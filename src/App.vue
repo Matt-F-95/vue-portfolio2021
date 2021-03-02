@@ -7,11 +7,11 @@
   <VueScrollProgressBar></VueScrollProgressBar>
   <Slide></Slide>
   <IntroSplash></IntroSplash>
-  <AboutMe></AboutMe>
-  <SkillsBar></SkillsBar>
+  <AboutMe v-show="$route.path === '/'"></AboutMe>
+  <SkillsBar v-show="$route.path === '/'"></SkillsBar>
   <router-view></router-view>
   <Portfolio v-show="$route.path === '/'"></Portfolio>
-  <ContactSection></ContactSection>
+  <ContactSection v-show="$route.path === '/'"></ContactSection>
   <MyFooter></MyFooter>
   <VueElevator></VueElevator>
    

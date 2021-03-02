@@ -9,7 +9,7 @@
         <div class="center-align col s12 m8 l8">
             <p>I'm Matt, a front-end developer and designer that aspires to make fast, user-friendly, and responsive digital experiences.</p>
             <p>I graduated from Seneca College's Web Development program in 2017, George Brown's Social Media Marketing in 2018, and from hackerYou's Advanced JavaScript program in 2018. I'm currently a second year student in Durham College's Contemporary Web Design program.</p>
-            <a href="#portfolio"><button class="btn waves-effect pink accent-3">SEE MY WORK
+            <a href="#portfolio"><button class="btn waves-effect p-2 brand-color">SEE MY WORK
             <i class="fas fa-arrow-down"></i>
             </button></a>
            
@@ -36,6 +36,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.brand-color {
+  background: #252A34;
+}
+.brand-color:hover {
+  background: #F50057;
+}
 h3 {
   margin: 40px 0 0;
 }

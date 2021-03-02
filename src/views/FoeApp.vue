@@ -48,6 +48,12 @@
   // optional style for arrows & dots
   import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 
+  function scrollWin() {
+  window.scrollTo(500, 0);
+}
+
+scrollWin();
+
 export default {
   name: 'SlickSlider',
   components: { VueSlickCarousel },
@@ -94,6 +100,7 @@ export default {
 
   .foeapp {
     margin-bottom: 20em;
+
   }
 
 

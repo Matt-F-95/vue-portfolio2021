@@ -86,7 +86,7 @@
           <i class="fab fa-js"></i>
         </div>
         <div class="card-action">
-          <router-link v-on:click="isHidden = !isHidden" to="/vachephotobooth">Case Study</router-link>
+          <router-link v-on:click="isHidden = !isHidden" to="/">Case Study</router-link>
           <a href="https://staging.mattfelton.com/vache-photobooth/" target="_blank">View Live</a>
           <a href="https://github.com/Matt-F-95/vache-photobooth" target="_blank"><i class="fab fa-github"></i></a>
         </div>
@@ -99,15 +99,15 @@
           <!-- <span class="card-title">Mad Movies</span> -->
         </div>
         <div class="card-content">
-          <h6>Mad Movies</h6>
-          <p>A Mad Movies dynamic App made with a database.</p>
+          <h6>Another Project</h6>
+          <p>Another Projects description.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
           <i class="fab fa-php"></i>
         </div>
         <div class="card-action">
-          <router-link v-on:click="isHidden = !isHidden" to="/actionltd">Case Study</router-link>
+          <router-link v-on:click="isHidden = !isHidden" to="/">Case Study</router-link>
            <a href="https://staging.mattfelton.com/mmdb/#/splash/" target="_blank">View Live</a>
            <a href="#"><i class="fab fa-github"></i></a>
            
@@ -124,8 +124,8 @@
           <!-- <span class="card-title">MMDB</span> -->
         </div>
         <div class="card-content">
-          <h6>Action Ltd</h6>
-          <p>A WordPress theme customized and optimized for Action Ltd.</p>
+         <h6>Another Project</h6>
+          <p>Another Projects description.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
@@ -134,6 +134,7 @@
         </div>
         <div class="card-action">
           <a href="#">Case Study</a>
+          <a href="#">View Live</a>
           <a href="#"><i class="fab fa-github"></i></a>
         </div>
       </div>
@@ -149,8 +150,8 @@
           <!-- <span class="card-title">MMDB</span> -->
         </div>
         <div class="card-content">
-          <h6>Action Ltd</h6>
-          <p>A WordPress theme customized and optimized for Action Ltd.</p>
+         <h6>Another Project</h6>
+          <p>Another Projects description.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
@@ -159,6 +160,7 @@
         </div>
         <div class="card-action">
           <a href="#">Case Study</a>
+          <a href="#">View Live</a>
           <a href="#"><i class="fab fa-github"></i></a>
         </div>
       </div>

@@ -1,11 +1,24 @@
 <template>
-  <div class="actionres">
+  <div class="actionltd" id="topAction">
     
    <div class="container">
      
      <h2>Action Restaurant Equipment Service</h2>
+     <a href="/#portfolio"><i class="fas fa-arrow-left backBtn"></i></a><br><br>
      <span>Case Study</span>
-     <p>Actions WordPress website was developed with a child theme originating from Sinatra. Designed with the companies branding from initial design to functioning reality. </p>
+      
+     <article>
+     <p>Action Restaurant case study.</p>
+     </article>
+
+    <span>Technologies</span>
+    <ul style="display:flex;flex-direction:column;" class="collection">
+      <li class="collection-item">HTML5</li>
+      <li class="collection-item">CSS3</li>
+      <li class="collection-item">jQuery &amp; Sammy JS Routing</li>
+      <li class="collection-item">PHP</li>
+      <li class="collection-item">MySQL</li>
+    </ul>
 
 
     <span>Designs</span>
@@ -18,8 +31,11 @@
       <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
       
     </VueSlickCarousel>
+
+
+  
    </div>
-   
+  
   </div>
 </template>
 
@@ -29,6 +45,12 @@
   import 'vue-slick-carousel/dist/vue-slick-carousel.css'
   // optional style for arrows & dots
   import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+
+  function scrollWin() {
+  window.scrollTo(500, 0);
+}
+
+scrollWin();
 
 export default {
   name: 'SlickSlider',
@@ -46,6 +68,14 @@ export default {
       }
     },
   }
+
+  
+  function scrollToTop() {
+  window.scrollTo(500, 0);
+}
+
+scrollToTop();
+
 </script>
 
 
@@ -56,6 +86,15 @@ export default {
     text-align: center;
   }
 
+  .backBtn {
+    font-size: 32px;
+    color: #0d0d0d;
+   
+  }
+  .backBtn:hover {
+    color: #F50057;
+   
+  }
   span {
     font-size: 1.75em;
     font-weight: 600;
@@ -64,4 +103,11 @@ export default {
   .actionres {
     margin-bottom: 20vh;
   }
+
+  .actionltd {
+    margin-bottom: 20em;
+
+  }
+
+
 </style>

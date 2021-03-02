@@ -35,6 +35,15 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+ @media only screen and (max-width: 600px) {
+    .skillHolder {
+       
+        padding: 10px;
+    }
+}
+
+
     h3 {
         margin: 40px 0 0;
     }
@@ -64,10 +73,16 @@
         flex-direction: row;
         margin-top: 50px;
         margin-bottom: 50px;
+        padding: 20px;
     }
 
     .skillHolder i {
         margin: 0.613rem;
+    }
+
+    i:hover {
+         color: #F50057;
+         transition: 0.5s;
     }
 
     .fa-vuejs {

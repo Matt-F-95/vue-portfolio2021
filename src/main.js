@@ -120,7 +120,20 @@ Vue.use(Modal);
 
 Vue.config.productionTip = false
 
+import VueAnalytics from 'vue-analytics';
+
+Vue.use(VueAnalytics, {
+    id: 'G-GMY0XJ22R0',
+    router
+
+})
+
 new Vue({
   router,
   render: h => h(App)
 }).$mount('#app')
+
+
+
+
+

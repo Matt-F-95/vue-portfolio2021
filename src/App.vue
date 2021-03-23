@@ -6,7 +6,7 @@
         crossorigin="anonymous">
   <VueScrollProgressBar></VueScrollProgressBar>
   <Slide></Slide>
-  <IntroSplash></IntroSplash>
+  <IntroSplash v-show="$route.path === '/'"></IntroSplash>
   <AboutMe v-show="$route.path === '/'"></AboutMe>
   <SkillsBar v-show="$route.path === '/'"></SkillsBar>
   <router-view></router-view>

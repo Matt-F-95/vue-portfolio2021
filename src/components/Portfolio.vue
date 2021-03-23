@@ -30,7 +30,7 @@
         </div>
         <div class="card-content">
           <h6>Mad Movies</h6>
-          <p>A Dynamic Mad Movies database.</p>
+          <p>A Dynamic Mad Movies database created with PHP and MySQL.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
@@ -83,10 +83,11 @@
           <p>A Milk Photobooth promotional website utilizing Canvas, Regex, and ES6.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
+          <i class="fab fa-react"></i>
           <i class="fab fa-js"></i>
         </div>
         <div class="card-action">
-          <router-link v-on:click="isHidden = !isHidden" to="/vachephotobooth">Case Study</router-link>
+          <router-link v-on:click="isHidden = !isHidden" to="/">Case Study</router-link>
           <a href="https://staging.mattfelton.com/vache-photobooth/" target="_blank">View Live</a>
           <a href="https://github.com/Matt-F-95/vache-photobooth" target="_blank"><i class="fab fa-github"></i></a>
         </div>
@@ -95,19 +96,20 @@
     <div class="col s12 m4 s1">
       <div class="card">
         <div class="card-image">
-          <img  src="@/assets/coming-soon-mockup.jpg" alt="Coming soon">
+          <img  src="@/assets/signout-mockup.jpg" alt="A mockup of the Vue signout database project.">
           <!-- <span class="card-title">Mad Movies</span> -->
         </div>
         <div class="card-content">
-          <h6>Mad Movies</h6>
-          <p>A Mad Movies dynamic App made with a database.</p>
+          <h6>Signout</h6>
+          <p>An assets signout site for Durham College created with Vue, PHP, and mySQL.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
+          <i class="fab fa-vuejs"></i>
           <i class="fab fa-php"></i>
         </div>
         <div class="card-action">
-          <router-link v-on:click="isHidden = !isHidden" to="/actionltd">Case Study</router-link>
+          <router-link v-on:click="isHidden = !isHidden" to="/">Case Study</router-link>
            <a href="https://staging.mattfelton.com/mmdb/#/splash/" target="_blank">View Live</a>
            <a href="#"><i class="fab fa-github"></i></a>
            
@@ -120,12 +122,12 @@
     <div class="col s12 m4 s1">
       <div class="card">
         <div class="card-image">
-          <img src="@/assets/coming-soon-mockup.jpg" alt="Coming soon mockup">
+          <img src="@/assets/honeycakes-mockup.jpg" alt="A mockup of Honey Cakes custom underscores WordPress theme.">
           <!-- <span class="card-title">MMDB</span> -->
         </div>
         <div class="card-content">
-          <h6>Action Ltd</h6>
-          <p>A WordPress theme customized and optimized for Action Ltd.</p>
+         <h6>Honey Cakes</h6>
+          <p>A custom WordPress Underscores theme with WooCommerce integrated.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
@@ -134,6 +136,7 @@
         </div>
         <div class="card-action">
           <a href="#">Case Study</a>
+          <a href="#">View Live</a>
           <a href="#"><i class="fab fa-github"></i></a>
         </div>
       </div>
@@ -149,8 +152,8 @@
           <!-- <span class="card-title">MMDB</span> -->
         </div>
         <div class="card-content">
-          <h6>Action Ltd</h6>
-          <p>A WordPress theme customized and optimized for Action Ltd.</p>
+         <h6>Easy Groceries</h6>
+          <p>An e-commerce site created with Sammy JS for routing and MySQL database.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
@@ -159,6 +162,7 @@
         </div>
         <div class="card-action">
           <a href="#">Case Study</a>
+          <a href="#">View Live</a>
           <a href="#"><i class="fab fa-github"></i></a>
         </div>
       </div>

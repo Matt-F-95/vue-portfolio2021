@@ -13,12 +13,12 @@
 
     <span>Technologies</span>
     <ul style="display:flex;flex-direction:column;" class="collection">
-      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i> HTML5</li>
-      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i> CSS3</li>
-      <li class="collection-item"><i class="fab fa-js fa-2x"></i> JavaScript</li>
-      <li class="collection-item"><i class="fab fa-wordpress fa-2x"></i> WordPress</li>
-      <li class="collection-item"><i class="fas fa-database fa-2x"></i> MySQL</li>
-      <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i> Adobe XD</li>
+      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i><br> HTML5</li>
+      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i><br> CSS3</li>
+      <li class="collection-item"><i class="fab fa-js fa-2x"></i><br> JavaScript</li>
+      <li class="collection-item"><i class="fab fa-wordpress fa-2x"></i><br> WordPress</li>
+      <li class="collection-item"><i class="fas fa-database fa-2x"></i><br> MySQL</li>
+      <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i><br> Adobe XD</li>
     </ul>
 <!-- 
      <li class="collection-item"><i class="fab fa-html5"></i> HTML5</li>

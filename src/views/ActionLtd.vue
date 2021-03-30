@@ -31,12 +31,12 @@
     <span>Designs</span>
 
      <VueSlickCarousel :arrows="true" :dots="true" v-bind="settings">
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      
+      <div><img src="@/assets/action-mockup.jpg" alt="Action Restaurant Equipment Services Mockup."></div>
+      <div><img src="@/assets/action-about-page.jpg" alt="Action Restaurant Equipment Services Mockup."></div>
+      <div><img src="@/assets/action-blog-page.jpg" alt="Action Restaurant Equipment Services Mockup."></div>
+      <div><img src="@/assets/action-contact-page.jpg" alt="Action Restaurant Equipment Services Mockup."></div>
+      <div><img src="@/assets/action-preventive-main-program.jpg" alt="Action Restaurant Equipment Services Mockup."></div>
+      <div><img src="@/assets/action-resources-page.jpg" alt="Action Restaurant Equipment Services Mockup."></div>
     </VueSlickCarousel>
 
 
@@ -65,12 +65,52 @@ export default {
     data() {
       return {
         settings: {
-          "centerMode": true,
-          "centerPadding": "25px",
+          "lazyLoad": "ondemand",
+          "arrows": true,
+          // "centerMode": true,
+          "autoplay": true,
           "focusOnSelect": true,
           "infinite": true,
           "slidesToShow": 1,
-          "speed": 500
+          "speed": 1000,
+          "swipe": true,
+          "adaptiveHeight": true,
+             // *! Add responsiveness to slider.
+          responsive: [
+                    {
+                      breakpoint: 2024,
+                      settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true
+                        
+                      }
+                    },
+                    {
+                      breakpoint: 1024,
+                      settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true
+                        
+                      }
+                    },
+                    {
+                      breakpoint: 600,
+                      settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                      }
+                    },
+                    {
+                      breakpoint: 480,
+                      settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                      }
+                    }
+                    
+                  ]
         }
       }
     },

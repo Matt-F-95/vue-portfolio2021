@@ -22,13 +22,13 @@
 
     <span>Technologies</span>
     <ul style="display:flex;flex-direction:column;" class="collection">
-      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i> HTML5</li>
-      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i> CSS3</li>
-      <li class="collection-item"><i class="fab fa-js fa-2x"></i> JavaScript &amp; Regex</li>
-      <li class="collection-item"><i class="fab fa-react fa-2x"></i> React</li>
-      <li class="collection-item"><i class="fab fa-php fa-2x"></i> PHP</li>
-      <li class="collection-item"><i class="fas fa-database fa-2x"></i> MySQL</li>
-      <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i> Adobe Photoshop &amp; Illustrator</li>
+      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i><br> HTML5</li>
+      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i><br> CSS3</li>
+      <li class="collection-item"><i class="fab fa-js fa-2x"></i><br> JavaScript &amp; Regex</li>
+      <li class="collection-item"><i class="fab fa-react fa-2x"></i><br> React</li>
+      <li class="collection-item"><i class="fab fa-php fa-2x"></i><br> PHP</li>
+      <li class="collection-item"><i class="fas fa-database fa-2x"></i><br> MySQL</li>
+      <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i><br> Adobe Photoshop &amp; Illustrator</li>
   
     </ul>
 

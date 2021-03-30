@@ -32,11 +32,12 @@
     <span>Designs</span>
 
      <VueSlickCarousel :arrows="true" :dots="true" v-bind="settings">
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
+      <!-- <div><img class="screenshotSlider"  src="@/assets/family-of-eateries-app-icon.png" alt="Family of Eateries App Icon"></div> -->
+      <div><img class="screenshotSlider" src="@/assets/screenshot-foe-0.png" alt="Family Of Eateries App Screen Captures."></div>
+      <div><img class="screenshotSlider" src="@/assets/screenshot-foe-1.png" alt="Family Of Eateries App Screen Captures."></div>
+      <div><img class="screenshotSlider" src="@/assets/screenshot-foe-2.png" alt="Family Of Eateries App Screen Captures."></div>
+      <div><img class="screenshotSlider" src="@/assets/screenshot-foe-3.png" alt="Family Of Eateries App Screen Captures."></div>
+      <div><img class="screenshotSlider" src="@/assets/screenshot-foe-4.png" alt="Family Of Eateries App Screen Captures."></div>
       
     </VueSlickCarousel>
 
@@ -66,12 +67,43 @@ export default {
     data() {
       return {
         settings: {
-          "centerMode": true,
-          "centerPadding": "25px",
+          "lazyLoad": "ondemand",
+          "arrows": true,
+          // "centerMode": true,
+          "autoplay": true,
           "focusOnSelect": true,
           "infinite": true,
           "slidesToShow": 1,
-          "speed": 500
+          "speed": 500,
+          "swipe": true,
+          "adaptiveHeight": true,
+             // *! Add responsiveness to slider.
+          responsive: [
+                    {
+                      breakpoint: 1024,
+                      settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true
+                        
+                      }
+                    },
+                    {
+                      breakpoint: 600,
+                      settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                      }
+                    },
+                    {
+                      breakpoint: 480,
+                      settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                      }
+                    }
+                    
+                  ]
         }
       }
     },
@@ -82,6 +114,10 @@ export default {
 
 
 <style scoped>
+
+  .screenshotSlider {
+    height: 80vh;
+  }
   h2 {
     text-align: center;
   }

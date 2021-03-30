@@ -6,7 +6,7 @@
       <div class="card">
         <div class="card-image">
           <img class="responsive" src="@/assets/foe-mockup.jpg" alt="family of eateries app mockup">
-          <!-- <span class="card-title">Family of Eateries</span> -->
+          
         </div>
         <div class="card-content">
           <h6>Family Of Eateries</h6>
@@ -26,7 +26,7 @@
       <div class="card">
         <div class="card-image">
           <img  src="@/assets/madmovies-mockup.jpg" alt="Mad Movies App Mockup">
-          <!-- <span class="card-title">Mad Movies</span> -->
+         
         </div>
         <div class="card-content">
           <h6>Mad Movies</h6>
@@ -51,7 +51,7 @@
       <div class="card">
         <div class="card-image">
           <img src="@/assets/action-mockup.jpg" alt="Action Custom WordPress mockup.">
-          <!-- <span class="card-title">MMDB</span> -->
+         
         </div>
         <div class="card-content">
           <h6>Action Ltd</h6>
@@ -65,7 +65,7 @@
         <div class="card-action">
           <router-link v-on:click="isHidden = !isHidden" to="/actionltd">Case Study</router-link>
           <a href="https://staging.mattfelton.com/actionltd/" target="_blank">View Live</a>
-          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/matt-f-95" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </div>
     </div>
@@ -76,11 +76,11 @@
       <div class="card">
         <div class="card-image">
           <img class="responsive" src="@/assets/vache-photobooth-rs.jpg" alt="Vache Photobooth">
-          <!-- <span class="card-title">Family of Eateries</span> -->
+          
         </div>
         <div class="card-content">
           <h6>Vache Photobooth</h6>
-          <p>A Milk Photobooth promotional website utilizing Canvas, Regex, and ES6.</p>
+          <p>A Milk Photobooth promotional website utilizing React, Regex, and Canvas.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-react"></i>
@@ -97,7 +97,7 @@
       <div class="card">
         <div class="card-image">
           <img  src="@/assets/durhamone-mockup.jpg" alt="A mockup of Durham Ones WordPress website.">
-          <!-- <span class="card-title">Mad Movies</span> -->
+        
         </div>
         <div class="card-content">
           <h6>Durham ONE</h6>
@@ -111,7 +111,7 @@
         <div class="card-action">
           <router-link v-on:click="isHidden = !isHidden" to="/durhamone">Case Study</router-link>
            <a href="https://durham1.ca" target="_blank">View Live</a>
-           <a href="#"><i class="fab fa-github"></i></a>
+           <a href="https://github.com/Matt-F-95/durhamone"><i class="fab fa-github"></i></a>
            
             
            
@@ -123,7 +123,7 @@
       <div class="card">
         <div class="card-image">
           <img src="@/assets/honeycakes-mockup.jpg" alt="A mockup of Honey Cakes custom underscores WordPress theme.">
-          <!-- <span class="card-title">MMDB</span> -->
+         
         </div>
         <div class="card-content">
          <h6>Honey Cakes</h6>
@@ -135,9 +135,9 @@
           <i class="fab fa-wordpress"></i>
         </div>
         <div class="card-action">
-          <a href="/honeycakes">Case Study</a>
+          <router-link v-on:click="isHidden = !isHidden" to="/honeycakes">Case Study</router-link>
           <a href="#">View Live</a>
-          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/Matt-F-95/cwd450001" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </div>
     </div>
@@ -149,7 +149,7 @@
       <div class="card">
         <div class="card-image">
           <img src="@/assets/coming-soon-mockup.jpg" alt="Coming soon mockup.">
-          <!-- <span class="card-title">MMDB</span> -->
+         
         </div>
         <div class="card-content">
          <h6>Easy Groceries</h6>
@@ -158,22 +158,16 @@
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
           <i class="fab fa-php"></i>
-          <i class="fab fa-wordpress"></i>
         </div>
         <div class="card-action">
-          <a href="/easygroceries">Case Study</a>
+          <router-link v-on:click="isHidden = !isHidden" to="/easygroceries">Case Study</router-link>
           <a href="#">View Live</a>
-          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/matt-f-95" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </div>
-
     </div>
-
-  
-  
-  </div>
- 
-       </div>
+    </div>
+    </div>
     </div>
 </template>
 

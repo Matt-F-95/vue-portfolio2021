@@ -36,7 +36,7 @@ const routes = [
   {
     path: '/vachephotobooth',
     name: 'vachephotobooth',
-    component: () => import('../views/DurhamOne.vue')
+    component: () => import('../views/VachePhotobooth.vue')
   },
   {
     path: '/easygroceries',
@@ -52,6 +52,11 @@ const routes = [
     path: '/honeycakes',
     name: 'honeycakes',
     component: () => import('../views/HoneyCakes.vue')
+  },
+  {
+    path: '/signout',
+    name: 'signout',
+    component: () => import('../views/SignOut.vue')
   },
 ]
 

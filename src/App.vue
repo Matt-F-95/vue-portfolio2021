@@ -4,8 +4,8 @@
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
-  <VueScrollProgressBar></VueScrollProgressBar>
-  <Slide></Slide>
+  <VueScrollProgressBar v-show="$route.path === '/'"></VueScrollProgressBar>
+  <Slide v-show="$route.path === '/'"></Slide>
   <IntroSplash v-show="$route.path === '/'"></IntroSplash>
   <AboutMe v-show="$route.path === '/'"></AboutMe>
   <SkillsBar v-show="$route.path === '/'"></SkillsBar>
@@ -62,6 +62,12 @@
   color: #2c3e50;
   background: #1b232e;
 }
+
+.collection .collection-item {
+  background: #1b232e !important;
+  color: #fff;
+}
+
 
 .application {
   font-family: 'Poppins', sans-serif;

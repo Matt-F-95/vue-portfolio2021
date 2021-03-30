@@ -16,11 +16,17 @@
 
     <span>Technologies</span>
     <ul style="display:flex;flex-direction:column;" class="collection">
-      <li class="collection-item">HTML5</li>
-      <li class="collection-item">CSS3</li>
-      <li class="collection-item">JavaScript &amp; jQuery</li>
-      <li class="collection-item">GreenSock Animation Platform (GSAP)</li>
+      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i><br> HTML5</li>
+      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i><br> CSS3</li>
+      <li class="collection-item"><i class="fab fa-js fa-2x"></i><br> JavaScript</li>
+      <li class="collection-item"><i class="fas fa-file-code fa-2x"></i><br> GreenSock Animation Platform (GSAP)</li>
     </ul>
+<!-- 
+     <li class="collection-item"><i class="fab fa-html5"></i> HTML5</li>
+      <li class="collection-item"><i class="fab fa-css3"></i> CSS3</li>
+      <li class="collection-item"><i class="fab fa-js"></i> JavaScript</li>
+      <li class="collection-item"><i class="fab fa-php"></i> PHP</li>
+      <li class="collection-item"><i class="fab fa-wordpress"></i> WordPress</li> -->
 
 
     <span>Designs</span>

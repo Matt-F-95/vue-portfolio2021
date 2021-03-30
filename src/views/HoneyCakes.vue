@@ -36,7 +36,6 @@
       <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
       <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
       <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      
     </VueSlickCarousel>
 
 

@@ -8,16 +8,28 @@
      <span>Case Study</span>
       
      <article>
-     <p>Action Restaurant case study.</p>
+     <p>This project is an experiential user driven marketing campaign to enable users to create images centered around milk and milk products while enjoying an active lifestyle.  Our client is seeking a marketing platform for enabling the send of marketing materials to our target market of young adults ages 19-25. Winners of the marketing contest will be featured in stores, theatres, and television spots to help promote the purchasing of Canadian dairy and milk products.</p>
+     <p>Our goal is to create a marketing platform to allow our client to advertise milk and milk products to young adults to help promote an active lifestyle and offer client created memes and virtual sticker enhanced photos.</p>
+     <p>We’re marketing this project towards young adults ages from 19-25 years old. With imagery that helps promote a healthy lifestyle and consumption of milk and other dairy products.</p>
+     <h3>Our Project Team</h3>
+     <ul style="display:flex;flex-direction:column;" class="collection">
+       <li class="collection-item">Project Manager - Tyler Beckstead</li>
+       <li class="collection-item"> Developer - Matt Felton</li>
+       <li class="collection-item">Writer - Lovish Sekhri</li>
+       <li class="collection-item">Designer - Varun Malhotra</li>
+     </ul>
      </article>
 
     <span>Technologies</span>
     <ul style="display:flex;flex-direction:column;" class="collection">
-      <li class="collection-item">HTML5</li>
-      <li class="collection-item">CSS3</li>
-      <li class="collection-item">jQuery &amp; Sammy JS Routing</li>
-      <li class="collection-item">PHP</li>
-      <li class="collection-item">MySQL</li>
+      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i> HTML5</li>
+      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i> CSS3</li>
+      <li class="collection-item"><i class="fab fa-js fa-2x"></i> JavaScript &amp; Regex</li>
+      <li class="collection-item"><i class="fab fa-react fa-2x"></i> React</li>
+      <li class="collection-item"><i class="fab fa-php fa-2x"></i> PHP</li>
+      <li class="collection-item"><i class="fas fa-database fa-2x"></i> MySQL</li>
+      <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i> Adobe Photoshop &amp; Illustrator</li>
+  
     </ul>
 
 

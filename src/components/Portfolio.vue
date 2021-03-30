@@ -87,7 +87,7 @@
           <i class="fab fa-js"></i>
         </div>
         <div class="card-action">
-          <router-link v-on:click="isHidden = !isHidden" to="/">Case Study</router-link>
+          <router-link v-on:click="isHidden = !isHidden" to="/vachephotobooth">Case Study</router-link>
           <a href="https://staging.mattfelton.com/vache-photobooth/" target="_blank">View Live</a>
           <a href="https://github.com/Matt-F-95/vache-photobooth" target="_blank"><i class="fab fa-github"></i></a>
         </div>
@@ -96,21 +96,21 @@
     <div class="col s12 m4 s1">
       <div class="card">
         <div class="card-image">
-          <img  src="@/assets/signout-mockup.jpg" alt="A mockup of the Vue signout database project.">
+          <img  src="@/assets/durhamone-mockup.jpg" alt="A mockup of Durham Ones WordPress website.">
           <!-- <span class="card-title">Mad Movies</span> -->
         </div>
         <div class="card-content">
-          <h6>Signout</h6>
-          <p>An assets signout site for Durham College created with Vue, PHP, and mySQL.</p>
+          <h6>Durham ONE</h6>
+          <p>A collaborative project for Durham ONE made at Durham College.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
-          <i class="fab fa-vuejs"></i>
           <i class="fab fa-php"></i>
+          <i class="fab fa-wordpress"></i>
         </div>
         <div class="card-action">
-          <router-link v-on:click="isHidden = !isHidden" to="/">Case Study</router-link>
-           <a href="https://staging.mattfelton.com/mmdb/#/splash/" target="_blank">View Live</a>
+          <router-link v-on:click="isHidden = !isHidden" to="/durhamone">Case Study</router-link>
+           <a href="https://durham1.ca" target="_blank">View Live</a>
            <a href="#"><i class="fab fa-github"></i></a>
            
             
@@ -135,7 +135,7 @@
           <i class="fab fa-wordpress"></i>
         </div>
         <div class="card-action">
-          <a href="#">Case Study</a>
+          <a href="/honeycakes">Case Study</a>
           <a href="#">View Live</a>
           <a href="#"><i class="fab fa-github"></i></a>
         </div>
@@ -161,7 +161,7 @@
           <i class="fab fa-wordpress"></i>
         </div>
         <div class="card-action">
-          <a href="#">Case Study</a>
+          <a href="/easygroceries">Case Study</a>
           <a href="#">View Live</a>
           <a href="#"><i class="fab fa-github"></i></a>
         </div>
@@ -170,21 +170,7 @@
     </div>
 
   
-    <!-- <div class="col s12 m4 s1">
-      <div class="card">
-        <div class="card-image">
-          <img src="http://placekitten.com/g/200/200">
-          <span class="card-title">Card Title</span>
-        </div>
-        <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div> -->
+  
   </div>
  
        </div>

@@ -1,26 +1,33 @@
 <template>
-  <div class="madmovies" id="topMad">
+  <div class="madMovies" id="topMadMovies">
     
    <div class="container">
      
-     <h2>Mad Movie Database</h2>
+     <h2>Mad Movies</h2>
      <a href="/#portfolio"><i class="fas fa-arrow-left backBtn"></i></a><br><br>
      <span>Case Study</span>
       
      <article>
-      <p>The task for Mad Movies was to create a movie app to store all of the 150+ movies and display it to the end user in an elegant and user friendly way. All while maintaining speed and responsiveness.</p>
+      
+       <p>The task for Mad Movies was to create a movie app to store all of the 150+ movies and display it to the end user in an elegant and user friendly way. All while maintaining speed and responsiveness.</p>
       <p>Mad Movies was designed with Photoshop for the initial design comps. Then it was developed in three stages after that first being the box site layout, then the static site layout and finally the dynamic site layout.</p>
-      <p>It was developed using a combination of both front-end and back-end technologies. </p>
+      <p>It was developed using a combination of both front-end and back-end technologies.</p>
      </article>
 
     <span>Technologies</span>
     <ul style="display:flex;flex-direction:column;" class="collection">
-      <li class="collection-item">HTML5</li>
-      <li class="collection-item">CSS3</li>
-      <li class="collection-item">jQuery &amp; Sammy JS Routing</li>
-      <li class="collection-item">PHP</li>
-      <li class="collection-item">MySQL</li>
+      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i><br>  HTML5</li>
+      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i><br>  CSS3</li>
+      <li class="collection-item"><i class="fab fa-js fa-2x"></i><br> JavaScript</li>
+      <li class="collection-item"><i class="fab fa-php fa-2x"></i><br>  PHP</li>
+      <li class="collection-item"><i class="fas fa-file-code fa-2x"></i><br>  Sammy JS Routing</li>
     </ul>
+<!-- 
+     <li class="collection-item"><i class="fab fa-html5"></i> HTML5</li>
+      <li class="collection-item"><i class="fab fa-css3"></i> CSS3</li>
+      <li class="collection-item"><i class="fab fa-js"></i> JavaScript</li>
+      <li class="collection-item"><i class="fab fa-php"></i> PHP</li>
+      <li class="collection-item"><i class="fab fa-wordpress"></i> WordPress</li> -->
 
 
     <span>Designs</span>
@@ -94,14 +101,12 @@ export default {
     font-weight: 600;
   }
 
-  .actionres {
+  .madMovies {
     margin-bottom: 20vh;
-  }
-
-  .madmovies {
-    margin-bottom: 20em;
-
   }
 
 
 </style>
+
+
+

@@ -14,12 +14,12 @@
 
     <span>Technologies</span>
     <ul style="display:flex;flex-direction:column;" class="collection">
-      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i> HTML5</li>
-      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i> CSS3</li>
-      <li class="collection-item"><i class="fab fa-js fa-2x"></i> JavaScript</li>
-      <li class="collection-item"><i class="fab fa-wordpress fa-2x"></i> WordPress</li>
-      <li class="collection-item"><i class="fas fa-database fa-2x"></i> MySQL</li>
-      <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i> Adobe Photoshop &amp; Illustrator</li>
+      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i><br> HTML5</li>
+      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i><br> CSS3</li>
+      <li class="collection-item"><i class="fab fa-js fa-2x"></i><br> JavaScript</li>
+      <li class="collection-item"><i class="fab fa-wordpress fa-2x"></i><br> WordPress</li>
+      <li class="collection-item"><i class="fas fa-database fa-2x"></i><br> MySQL</li>
+      <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i><br> Adobe Photoshop &amp; Illustrator</li>
     </ul>
 <!-- 
      <li class="collection-item"><i class="fab fa-html5"></i> HTML5</li>
@@ -32,11 +32,12 @@
     <span>Designs</span>
 
      <VueSlickCarousel :arrows="true" :dots="true" v-bind="settings">
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
+      <div><img src="@/assets/durham1-screenshot1.jpg" alt="DurhamONE Website Screen Shot."></div>
+      <div><img src="@/assets/durham1-about.jpg" alt="DurhamONE Website Screen Shot."></div>
+      <div><img src="@/assets/durham1-cut-the-talk.jpg" alt="DurhamONE Website Screen Shot."></div>
+      <div><img src="@/assets/durham1-dine-and-talk.jpg" alt="DurhamONE Website Screen Shot."></div>
+      <div><img src="@/assets/durham1-events.jpg" alt="DurhamONE Website Screen Shot."></div>
+      <div><img src="@/assets/durham1-gallery.jpg" alt="DurhamONE Website Screen Shot."></div>
       
     </VueSlickCarousel>
 
@@ -66,12 +67,52 @@ export default {
     data() {
       return {
         settings: {
-          "centerMode": true,
-          "centerPadding": "25px",
+          "lazyLoad": "ondemand",
+          "arrows": true,
+          // "centerMode": true,
+          "autoplay": true,
           "focusOnSelect": true,
           "infinite": true,
           "slidesToShow": 1,
-          "speed": 500
+          "speed": 1000,
+          "swipe": true,
+          "adaptiveHeight": true,
+             // *! Add responsiveness to slider.
+          responsive: [
+                    {
+                      breakpoint: 2024,
+                      settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true
+                        
+                      }
+                    },
+                    {
+                      breakpoint: 1024,
+                      settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true
+                        
+                      }
+                    },
+                    {
+                      breakpoint: 600,
+                      settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                      }
+                    },
+                    {
+                      breakpoint: 480,
+                      settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                      }
+                    }
+                    
+                  ]
         }
       }
     },

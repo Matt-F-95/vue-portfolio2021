@@ -11,24 +11,26 @@
      <p>This project is an experiential user driven marketing campaign to enable users to create images centered around milk and milk products while enjoying an active lifestyle.  Our client is seeking a marketing platform for enabling the send of marketing materials to our target market of young adults ages 19-25. Winners of the marketing contest will be featured in stores, theatres, and television spots to help promote the purchasing of Canadian dairy and milk products.</p>
      <p>Our goal is to create a marketing platform to allow our client to advertise milk and milk products to young adults to help promote an active lifestyle and offer client created memes and virtual sticker enhanced photos.</p>
      <p>We’re marketing this project towards young adults ages from 19-25 years old. With imagery that helps promote a healthy lifestyle and consumption of milk and other dairy products.</p>
-     <h3>Our Project Team</h3>
+     <p>This project was a team collaboration, the designer used Photoshop to create the initial design mockups, we then created the form with HTML, CSS, Regex, and JavaScript. Later converting it to React and adding in several additional features like the react webcam canvas feature, a contact form, about page, and legal page.</p>
+    
+     </article>
+     <span>Our Project Team</span>
      <ul style="display:flex;flex-direction:column;" class="collection">
        <li class="collection-item">Project Manager - Tyler Beckstead</li>
        <li class="collection-item"> Developer - Matt Felton</li>
        <li class="collection-item">Writer - Lovish Sekhri</li>
        <li class="collection-item">Designer - Varun Malhotra</li>
      </ul>
-     </article>
 
     <span>Technologies</span>
     <ul style="display:flex;flex-direction:column;" class="collection">
-      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i> HTML5</li>
-      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i> CSS3</li>
-      <li class="collection-item"><i class="fab fa-js fa-2x"></i> JavaScript &amp; Regex</li>
-      <li class="collection-item"><i class="fab fa-react fa-2x"></i> React</li>
-      <li class="collection-item"><i class="fab fa-php fa-2x"></i> PHP</li>
-      <li class="collection-item"><i class="fas fa-database fa-2x"></i> MySQL</li>
-      <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i> Adobe Photoshop &amp; Illustrator</li>
+      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i><br> HTML5</li>
+      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i><br> CSS3</li>
+      <li class="collection-item"><i class="fab fa-js fa-2x"></i><br> JavaScript &amp; Regex</li>
+      <li class="collection-item"><i class="fab fa-react fa-2x"></i><br> React</li>
+      <li class="collection-item"><i class="fab fa-php fa-2x"></i><br> PHP</li>
+      <li class="collection-item"><i class="fas fa-database fa-2x"></i><br> MySQL</li>
+      <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i><br> Adobe Photoshop &amp; Illustrator</li>
   
     </ul>
 
@@ -36,12 +38,10 @@
     <span>Designs</span>
 
      <VueSlickCarousel :arrows="true" :dots="true" v-bind="settings">
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      
+      <div><img src="@/assets/vache-react-photobooth-sc.png" alt="React Vache Photobooth Screenshot"></div>
+      <div><img src="@/assets/vache-screenshot-1.png" alt="React Vache Photobooth Screenshot"></div>
+      <div><img src="@/assets/vache-screenshot-2.png" alt="React Vache Photobooth Screenshot"></div>
+      <div><img src="@/assets/vache-screenshot-3.png" alt="React Vache Photobooth Screenshot"></div>
     </VueSlickCarousel>
 
 

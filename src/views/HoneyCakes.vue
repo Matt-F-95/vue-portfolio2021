@@ -8,17 +8,17 @@
      <span>Case Study</span>
       
      <article>
-       <p>Honey Cakes is a custom Underscores theme for WordPress. The initial designs were done in Adobe XD and the WordPress theme was designed from scratch with TailWind CSS and custom PHP. All aspects of the theme had to be styled and positioned correctly before adding in WooCommerce to make it a fully functioning ecommerce theme. </p>
+       <p>Honey Cakes is a custom Underscores theme for WordPress. The initial designs were done in Adobe XD and the WordPress theme was designed from scratch with TailWind CSS and custom PHP. All aspects of the theme had to be styled and positioned correctly before adding in WooCommerce to make it a fully functioning ecommerce theme. It has custom widget areas, menu-types, and post-types throughout the theme to optimize it to suit your needs.</p>
      </article>
 
     <span>Technologies</span>
     <ul style="display:flex;flex-direction:column;" class="collection">
-      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i> HTML5</li>
-      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i> CSS3</li>
-      <li class="collection-item"><i class="fab fa-js fa-2x"></i> JavaScript</li>
-      <li class="collection-item"><i class="fab fa-wordpress fa-2x"></i> WordPress</li>
-      <li class="collection-item"><i class="fas fa-database fa-2x"></i> MySQL</li>
-      <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i> Adobe XD</li>
+      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i><br> HTML5</li>
+      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i><br> CSS3</li>
+      <li class="collection-item"><i class="fab fa-js fa-2x"></i><br> JavaScript</li>
+      <li class="collection-item"><i class="fab fa-wordpress fa-2x"></i><br> WordPress</li>
+      <li class="collection-item"><i class="fas fa-database fa-2x"></i><br> MySQL</li>
+      <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i><br> Adobe XD</li>
     </ul>
 <!-- 
      <li class="collection-item"><i class="fab fa-html5"></i> HTML5</li>
@@ -31,12 +31,9 @@
     <span>Designs</span>
 
      <VueSlickCarousel :arrows="true" :dots="true" v-bind="settings">
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      
+      <div><img src="@/assets/honeycakes_sc_500_1.png" alt="Honey Cakes Screenshot"></div>
+      <div><img src="@/assets/honeycakes-mockup.jpg" alt="Honey Cakes Screenshot"></div>
+      <div><img src="@/assets/honeycakes_sc_500.png" alt="Honey Cakes Screenshot"></div>
     </VueSlickCarousel>
 
 

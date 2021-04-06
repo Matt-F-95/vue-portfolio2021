@@ -6,11 +6,11 @@
       <div class="card">
         <div class="card-image">
           <img class="responsive" src="@/assets/foe-mockup.jpg" alt="family of eateries app mockup">
-          <!-- <span class="card-title">Family of Eateries</span> -->
+          
         </div>
         <div class="card-content">
           <h6>Family Of Eateries</h6>
-          <p>An App made and designed for Family of Eateries.</p>
+          <p>An App made and designed for Family of Eateries utilizing GSAP animations and jQuery.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
@@ -26,7 +26,7 @@
       <div class="card">
         <div class="card-image">
           <img  src="@/assets/madmovies-mockup.jpg" alt="Mad Movies App Mockup">
-          <!-- <span class="card-title">Mad Movies</span> -->
+         
         </div>
         <div class="card-content">
           <h6>Mad Movies</h6>
@@ -51,7 +51,7 @@
       <div class="card">
         <div class="card-image">
           <img src="@/assets/action-mockup.jpg" alt="Action Custom WordPress mockup.">
-          <!-- <span class="card-title">MMDB</span> -->
+         
         </div>
         <div class="card-content">
           <h6>Action Ltd</h6>
@@ -65,7 +65,7 @@
         <div class="card-action">
           <router-link v-on:click="isHidden = !isHidden" to="/actionltd">Case Study</router-link>
           <a href="https://staging.mattfelton.com/actionltd/" target="_blank">View Live</a>
-          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/matt-f-95" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </div>
     </div>
@@ -75,12 +75,12 @@
     <div class="col s12 m4 s1">
       <div class="card">
         <div class="card-image">
-          <img class="responsive" src="@/assets/vache-photobooth-rs.jpg" alt="Vache Photobooth">
-          <!-- <span class="card-title">Family of Eateries</span> -->
+          <img class="responsive" src="@/assets/vache-react-photobooth-sc.png" alt="Vache Photobooth">
+          
         </div>
         <div class="card-content">
           <h6>Vache Photobooth</h6>
-          <p>A Milk Photobooth promotional website utilizing Canvas, Regex, and ES6.</p>
+          <p>A Milk Photobooth promotional website utilizing React, Regex, Canvas, and Web Workers.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-react"></i>
@@ -88,7 +88,7 @@
         </div>
         <div class="card-action">
           <router-link v-on:click="isHidden = !isHidden" to="/vachephotobooth">Case Study</router-link>
-          <a href="https://staging.mattfelton.com/vache-photobooth/" target="_blank">View Live</a>
+          <a href="https://staging.mattfelton.com/vache-photobooth-react" target="_blank">View Live</a>
           <a href="https://github.com/Matt-F-95/vache-photobooth" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </div>
@@ -97,11 +97,11 @@
       <div class="card">
         <div class="card-image">
           <img  src="@/assets/durhamone-mockup.jpg" alt="A mockup of Durham Ones WordPress website.">
-          <!-- <span class="card-title">Mad Movies</span> -->
+        
         </div>
         <div class="card-content">
           <h6>Durham ONE</h6>
-          <p>A collaborative project for Durham ONE made at Durham College.</p>
+          <p>A collaborative WordPress project for Durham ONE made at Durham College.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
@@ -111,7 +111,7 @@
         <div class="card-action">
           <router-link v-on:click="isHidden = !isHidden" to="/durhamone">Case Study</router-link>
            <a href="https://durham1.ca" target="_blank">View Live</a>
-           <a href="#"><i class="fab fa-github"></i></a>
+           <a href="https://github.com/Matt-F-95/durhamone"><i class="fab fa-github"></i></a>
            
             
            
@@ -123,7 +123,7 @@
       <div class="card">
         <div class="card-image">
           <img src="@/assets/honeycakes-mockup.jpg" alt="A mockup of Honey Cakes custom underscores WordPress theme.">
-          <!-- <span class="card-title">MMDB</span> -->
+         
         </div>
         <div class="card-content">
          <h6>Honey Cakes</h6>
@@ -135,9 +135,9 @@
           <i class="fab fa-wordpress"></i>
         </div>
         <div class="card-action">
-          <a href="/honeycakes">Case Study</a>
-          <a href="#">View Live</a>
-          <a href="#"><i class="fab fa-github"></i></a>
+          <router-link v-on:click="isHidden = !isHidden" to="/honeycakes">Case Study</router-link>
+          <a href="https://staging.mattfelton.com/honeycakes" target="_blank">View Live</a>
+          <a href="https://github.com/Matt-F-95/cwd450001" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </div>
     </div>
@@ -148,32 +148,26 @@
               <div class="col s12 m4 s1">
       <div class="card">
         <div class="card-image">
-          <img src="@/assets/coming-soon-mockup.jpg" alt="Coming soon mockup.">
-          <!-- <span class="card-title">MMDB</span> -->
+          <img src="@/assets/easy_groceries_sc_1.png" alt="Easy Groceries Project.">
+         
         </div>
         <div class="card-content">
          <h6>Easy Groceries</h6>
-          <p>An e-commerce site created with Sammy JS for routing and MySQL database.</p>
+          <p>An e-commerce website for ordering groceries online, utilizing Sammy JS, JavaScript, mySQL, and PHP.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
           <i class="fab fa-php"></i>
-          <i class="fab fa-wordpress"></i>
         </div>
         <div class="card-action">
-          <a href="/easygroceries">Case Study</a>
-          <a href="#">View Live</a>
-          <a href="#"><i class="fab fa-github"></i></a>
+          <router-link v-on:click="isHidden = !isHidden" to="/easygroceries">Case Study</router-link>
+          <a href="https://staging.mattfelton.com/easy-groceries" target="_blank">View Live</a>
+          <a href="https://github.com/matt-f-95/easy-groceries" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </div>
-
     </div>
-
-  
-  
-  </div>
- 
-       </div>
+    </div>
+    </div>
     </div>
 </template>
 

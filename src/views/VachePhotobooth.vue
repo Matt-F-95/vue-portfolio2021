@@ -11,6 +11,7 @@
      <p>This project is an experiential user driven marketing campaign to enable users to create images centered around milk and milk products while enjoying an active lifestyle.  Our client is seeking a marketing platform for enabling the send of marketing materials to our target market of young adults ages 19-25. Winners of the marketing contest will be featured in stores, theatres, and television spots to help promote the purchasing of Canadian dairy and milk products.</p>
      <p>Our goal is to create a marketing platform to allow our client to advertise milk and milk products to young adults to help promote an active lifestyle and offer client created memes and virtual sticker enhanced photos.</p>
      <p>We’re marketing this project towards young adults ages from 19-25 years old. With imagery that helps promote a healthy lifestyle and consumption of milk and other dairy products.</p>
+     <p>This project was a team collaboration, the designer used Photoshop to create the initial design mockups, we then created the form with HTML, CSS, Regex, and JavaScript. Later converting it to React and adding in several additional features like the react webcam canvas feature, a contact form, about page, and legal page.</p>
     
      </article>
      <span>Our Project Team</span>
@@ -37,12 +38,10 @@
     <span>Designs</span>
 
      <VueSlickCarousel :arrows="true" :dots="true" v-bind="settings">
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      
+      <div><img src="@/assets/vache-react-photobooth-sc.png" alt="React Vache Photobooth Screenshot"></div>
+      <div><img src="@/assets/vache-screenshot-1.png" alt="React Vache Photobooth Screenshot"></div>
+      <div><img src="@/assets/vache-screenshot-2.png" alt="React Vache Photobooth Screenshot"></div>
+      <div><img src="@/assets/vache-screenshot-3.png" alt="React Vache Photobooth Screenshot"></div>
     </VueSlickCarousel>
 
 

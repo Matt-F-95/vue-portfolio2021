@@ -8,7 +8,7 @@
      <span>Case Study</span>
       
      <article>
-       <p>Honey Cakes is a custom Underscores theme for WordPress. The initial designs were done in Adobe XD and the WordPress theme was designed from scratch with TailWind CSS and custom PHP. All aspects of the theme had to be styled and positioned correctly before adding in WooCommerce to make it a fully functioning ecommerce theme. </p>
+       <p>Honey Cakes is a custom Underscores theme for WordPress. The initial designs were done in Adobe XD and the WordPress theme was designed from scratch with TailWind CSS and custom PHP. All aspects of the theme had to be styled and positioned correctly before adding in WooCommerce to make it a fully functioning ecommerce theme. It has custom widget areas, menu-types, and post-types throughout the theme to optimize it to suit your needs.</p>
      </article>
 
     <span>Technologies</span>
@@ -31,11 +31,9 @@
     <span>Designs</span>
 
      <VueSlickCarousel :arrows="true" :dots="true" v-bind="settings">
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
+      <div><img src="@/assets/honeycakes_sc_500_1.png" alt="Honey Cakes Screenshot"></div>
+      <div><img src="@/assets/honeycakes-mockup.jpg" alt="Honey Cakes Screenshot"></div>
+      <div><img src="@/assets/honeycakes_sc_500.png" alt="Honey Cakes Screenshot"></div>
     </VueSlickCarousel>
 
 

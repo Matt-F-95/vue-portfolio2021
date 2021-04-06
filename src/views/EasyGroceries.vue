@@ -25,12 +25,8 @@
     <span>Designs</span>
 
      <VueSlickCarousel :arrows="true" :dots="true" v-bind="settings">
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      <div><img src="@/assets/coming-soon-mockup.jpg" alt=""></div>
-      
+      <div><img src="@/assets/easy_groceries_sc_1.png" alt="Easy Groceries Home Page."></div>
+      <div><img src="@/assets/easy_groceries_product_sc.png" alt="Easy Groceries Products Page."></div>
     </VueSlickCarousel>
 
 

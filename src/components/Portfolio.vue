@@ -10,7 +10,7 @@
         </div>
         <div class="card-content">
           <h6>Family Of Eateries</h6>
-          <p>An App made and designed for Family of Eateries.</p>
+          <p>An App made and designed for Family of Eateries utilizing GSAP animations and jQuery.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
@@ -75,12 +75,12 @@
     <div class="col s12 m4 s1">
       <div class="card">
         <div class="card-image">
-          <img class="responsive" src="@/assets/vache-photobooth-rs.jpg" alt="Vache Photobooth">
+          <img class="responsive" src="@/assets/vache-react-photobooth-sc.png" alt="Vache Photobooth">
           
         </div>
         <div class="card-content">
           <h6>Vache Photobooth</h6>
-          <p>A Milk Photobooth promotional website utilizing React, Regex, and Canvas.</p>
+          <p>A Milk Photobooth promotional website utilizing React, Regex, Canvas, and Web Workers.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-react"></i>
@@ -88,7 +88,7 @@
         </div>
         <div class="card-action">
           <router-link v-on:click="isHidden = !isHidden" to="/vachephotobooth">Case Study</router-link>
-          <a href="https://staging.mattfelton.com/vache-photobooth/" target="_blank">View Live</a>
+          <a href="https://staging.mattfelton.com/vache-photobooth-react" target="_blank">View Live</a>
           <a href="https://github.com/Matt-F-95/vache-photobooth" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </div>
@@ -101,7 +101,7 @@
         </div>
         <div class="card-content">
           <h6>Durham ONE</h6>
-          <p>A collaborative project for Durham ONE made at Durham College.</p>
+          <p>A collaborative WordPress project for Durham ONE made at Durham College.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
@@ -136,7 +136,7 @@
         </div>
         <div class="card-action">
           <router-link v-on:click="isHidden = !isHidden" to="/honeycakes">Case Study</router-link>
-          <a href="#">View Live</a>
+          <a href="https://staging.mattfelton.com/honeycakes" target="_blank">View Live</a>
           <a href="https://github.com/Matt-F-95/cwd450001" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </div>
@@ -148,12 +148,12 @@
               <div class="col s12 m4 s1">
       <div class="card">
         <div class="card-image">
-          <img src="@/assets/coming-soon-mockup.jpg" alt="Coming soon mockup.">
+          <img src="@/assets/easy_groceries_sc_1.png" alt="Easy Groceries Project.">
          
         </div>
         <div class="card-content">
          <h6>Easy Groceries</h6>
-          <p>An e-commerce site created with Sammy JS for routing and MySQL database.</p>
+          <p>An e-commerce website for ordering groceries online, utilizing Sammy JS, JavaScript, mySQL, and PHP.</p>
           <i class="fab fa-html5"></i>
           <i class="fab fa-css3"></i>
           <i class="fab fa-js"></i>
@@ -161,8 +161,8 @@
         </div>
         <div class="card-action">
           <router-link v-on:click="isHidden = !isHidden" to="/easygroceries">Case Study</router-link>
-          <a href="#">View Live</a>
-          <a href="https://github.com/matt-f-95" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://staging.mattfelton.com/easy-groceries" target="_blank">View Live</a>
+          <a href="https://github.com/matt-f-95/easy-groceries" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </div>
     </div>

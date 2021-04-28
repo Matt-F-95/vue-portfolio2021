@@ -20,6 +20,7 @@
       <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i><br> CSS3</li>
       <li class="collection-item"><i class="fab fa-js fa-2x"></i><br> JavaScript</li>
       <li class="collection-item"><i class="fas fa-file-code fa-2x"></i><br> GreenSock Animation Platform (GSAP)</li>
+       <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i><br> Adobe Photoshop &amp; Illustrator</li>
     </ul>
 <!-- 
      <li class="collection-item"><i class="fab fa-html5"></i> HTML5</li>
@@ -41,7 +42,7 @@
       
     </VueSlickCarousel>
 
-
+    <a href="https://staging.mattfelton.com/foe-app" target="_blank" class=" btn-large black brand-color">VIEW LIVE SITE</a>
   
    </div>
   
@@ -145,5 +146,12 @@ export default {
 
   }
 
+
+  .brand-color {
+  background: #252A34 !important;
+}
+.brand-color:hover {
+  background: #F50057 !important;
+} 
 
 </style>

@@ -41,7 +41,7 @@
       
     </VueSlickCarousel>
 
-
+  <a href="https://durham1.ca" target="_blank" class=" btn-large black brand-color">VIEW LIVE SITE</a>
   
    </div>
   
@@ -149,6 +149,13 @@ export default {
     margin-bottom: 20em;
 
   }
+
+  .brand-color {
+  background: #252A34 !important;
+}
+  .brand-color:hover {
+  background: #F50057 !important;
+}
 
 
 </style>

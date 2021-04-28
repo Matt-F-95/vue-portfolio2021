@@ -68,6 +68,13 @@
   color: #fff;
 }
 
+.brand-color {
+  background: #252A34;
+}
+.brand-color:hover {
+  background: #F50057;
+}
+
 
 .application {
   font-family: 'Poppins', sans-serif;

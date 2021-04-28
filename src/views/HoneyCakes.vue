@@ -20,13 +20,6 @@
       <li class="collection-item"><i class="fas fa-database fa-2x"></i><br> MySQL</li>
       <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i><br> Adobe XD</li>
     </ul>
-<!-- 
-     <li class="collection-item"><i class="fab fa-html5"></i> HTML5</li>
-      <li class="collection-item"><i class="fab fa-css3"></i> CSS3</li>
-      <li class="collection-item"><i class="fab fa-js"></i> JavaScript</li>
-      <li class="collection-item"><i class="fab fa-php"></i> PHP</li>
-      <li class="collection-item"><i class="fab fa-wordpress"></i> WordPress</li> -->
-
 
     <span>Designs</span>
 
@@ -36,7 +29,7 @@
       <div><img src="@/assets/honeycakes_sc_500.png" alt="Honey Cakes Screenshot"></div>
     </VueSlickCarousel>
 
-
+  <a href="https://staging.mattfelton.com/honeycakes/" target="_blank" class=" btn-large black brand-color">VIEW LIVE SITE</a>
   
    </div>
   
@@ -78,6 +71,14 @@ export default {
 
 
 <style scoped>
+
+.brand-color {
+  background: #252A34 !important;
+}
+.brand-color:hover {
+  background: #F50057 !important;
+}
+
   h2 {
     text-align: center;
   }

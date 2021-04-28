@@ -1,47 +1,40 @@
 <template>
-  <div class="madMovies" id="topMadMovies">
+  <div class="sourceParts" id="topSource">
     
    <div class="container">
      
-     <h2>Mad Movies</h2>
+     <h2>SOURCE Commercial Appliance Parts</h2>
      <a href="/#portfolio"><i class="fas fa-arrow-left backBtn"></i></a><br><br>
      <span>Case Study</span>
       
      <article>
-      
-       <p>The task for Mad Movies was to create a movie app to store all of the 150+ movies and display it to the end user in an elegant and user friendly way. All while maintaining speed and responsiveness.</p>
-      <p>Mad Movies was designed with Photoshop for the initial design comps. Then it was developed in three stages after that first being the box site layout, then the static site layout and finally the dynamic site layout.</p>
-      <p>It was developed using a combination of both front-end and back-end technologies.</p>
+         <p>Coming soon - project is still in progress.</p>
      </article>
 
     <span>Technologies</span>
     <ul style="display:flex;flex-direction:column;" class="collection">
-      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i><br>  HTML5</li>
-      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i><br>  CSS3</li>
+      <li class="collection-item"><i class="fab fa-html5 fa-2x"></i><br> HTML5</li>
+      <li class="collection-item"><i class="fab fa-css3-alt fa-2x"></i><br> CSS3</li>
       <li class="collection-item"><i class="fab fa-js fa-2x"></i><br> JavaScript</li>
-      <li class="collection-item"><i class="fab fa-php fa-2x"></i><br>  PHP</li>
-      <li class="collection-item"><i class="fas fa-file-code fa-2x"></i><br>  Sammy JS Routing</li>
+      <li class="collection-item"><i class="fas fa-file-code fa-2x"></i><br> Liquid Template Language</li>
        <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i><br> Adobe Photoshop</li>
+      
     </ul>
-<!-- 
-     <li class="collection-item"><i class="fab fa-html5"></i> HTML5</li>
-      <li class="collection-item"><i class="fab fa-css3"></i> CSS3</li>
-      <li class="collection-item"><i class="fab fa-js"></i> JavaScript</li>
-      <li class="collection-item"><i class="fab fa-php"></i> PHP</li>
-      <li class="collection-item"><i class="fab fa-wordpress"></i> WordPress</li> -->
+
 
 
     <span>Designs</span>
 
      <VueSlickCarousel :arrows="true" :dots="true" v-bind="settings">
-      <div><img  class="screenshotSlider" src="@/assets/mad-movies-search.png" alt="Mad Movies screenshot with search functionality"></div>
-      <div><img class="screenshotSlider" src="@/assets/mad-movies-featured.jpg" alt="Mad Movies featured section."></div>
-      <div><img class="screenshotSlider" src="@/assets/mad-movies-movie-page.png" alt="Mad Movies movie page."></div>
-      
-      
+      <div><img src="@/assets/coming-soon-mockup.jpg" alt="Source Coming Soon Mockup."></div>
+      <div><img src="@/assets/coming-soon-mockup.jpg" alt="Source Coming Soon Mockup."></div>
+      <div><img src="@/assets/coming-soon-mockup.jpg" alt="Source Coming Soon Mockup."></div>
+      <div><img src="@/assets/coming-soon-mockup.jpg" alt="Source Coming Soon Mockup."></div>
+      <div><img src="@/assets/coming-soon-mockup.jpg" alt="Source Coming Soon Mockup."></div>
+      <div><img src="@/assets/coming-soon-mockup.jpg" alt="Source Coming Soon Mockup."></div>
     </VueSlickCarousel>
 
-    <a href="https://staging.mattfelton.com/mmdb/#/splash/" target="_blank" class=" btn-large black brand-color">VIEW LIVE SITE</a>
+        <a href="https://sourcecaps.ca" target="_blank" class=" btn-large black brand-color">VIEW LIVE SITE</a>
   
    </div>
   
@@ -134,6 +127,7 @@ export default {
   h2 {
     text-align: center;
   }
+  
 
   .backBtn {
     font-size: 32px;
@@ -149,12 +143,14 @@ export default {
     font-weight: 600;
   }
 
-  .madMovies {
+  .sourceParts {
     margin-bottom: 20vh;
   }
 
+  /* .actionLtd {
+    margin-bottom: 20em;
+
+  } */
+
 
 </style>
-
-
-

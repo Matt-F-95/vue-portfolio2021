@@ -20,6 +20,7 @@
       <li class="collection-item">jQuery &amp; Sammy JS Routing</li>
       <li class="collection-item">PHP</li>
       <li class="collection-item">MySQL</li>
+       <li class="collection-item"><i class="fas fa-paint-brush fa-2x"></i><br> Adobe Photoshop &amp; Illustrator</li>
     </ul>
 
 
@@ -35,6 +36,7 @@
     </VueSlickCarousel>
 
 
+    <a href="mattfelton.com" target="_blank" class=" btn-large black brand-color">VIEW LIVE SITE</a>
   
    </div>
   

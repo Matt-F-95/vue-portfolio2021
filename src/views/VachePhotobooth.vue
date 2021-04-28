@@ -45,6 +45,8 @@
     </VueSlickCarousel>
 
 
+    <a href="https://staging.mattfelton.com/final-react-photobooth/" target="_blank" class=" btn-large black brand-color">VIEW LIVE SITE</a>
+
   
    </div>
   
@@ -86,6 +88,14 @@ export default {
 
 
 <style scoped>
+
+.brand-color {
+  background: #252A34 !important;
+}
+.brand-color:hover {
+  background: #F50057 !important;
+}
+
   h2 {
     text-align: center;
   }

@@ -58,6 +58,16 @@ const routes = [
     name: 'signout',
     component: () => import('../views/SignOut.vue')
   },
+  {
+    path: '/sourceparts',
+    name: 'sourceparts',
+    component: () => import('../views/SourceParts.vue')
+  },
+  {
+    path: '/wildwildwellness',
+    name: 'wildwildwellness',
+    component: () => import('../views/WildWildWellness.vue')
+  },
 ]
 
 const router = new VueRouter({

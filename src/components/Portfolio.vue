@@ -88,8 +88,8 @@
         </div>
         <div class="card-action">
           <router-link v-on:click="isHidden = !isHidden" to="/vachephotobooth">Case Study</router-link>
-          <a href="https://staging.mattfelton.com/vache-photobooth-react" target="_blank">View Live</a>
-          <a href="https://github.com/Matt-F-95/vache-photobooth" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://staging.mattfelton.com/final-react-photobooth/" target="_blank">View Live</a>
+          <a href="https://github.com/Matt-F-95/react-form" target="_blank"><i class="fab fa-github"></i></a>
         </div>
       </div>
     </div>
@@ -143,10 +143,80 @@
     </div>
   
     </div>
+            <div class="row">
+    <div class="col s12 m4 s1">
+      <div class="card">
+        <div class="card-image">
+          <!-- <img class="responsive" src="@/assets/vache-react-photobooth-sc.png" alt="Vache Photobooth"> -->
+          <img class="responsive" src="@/assets/easy_groceries_sc_1.png" alt="Easy Groceries Project.">
+        </div>
+        <div class="card-content">
+          <h6>Easy Groceries</h6>
+           <p>An e-commerce website for ordering groceries online, utilizing Sammy JS, JavaScript, mySQL, and PHP.</p>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-php"></i>
+        </div>
+        <div class="card-action">
+          <router-link v-on:click="isHidden = !isHidden" to="/easygroceries">Case Study</router-link>
+          <a href="https://staging.mattfelton.com/final-react-photobooth/" target="_blank">View Live</a>
+          <a href="https://github.com/Matt-F-95/vache-photobooth" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4 s1">
+      <div class="card">
+        <div class="card-image">
+          <img  src="@/assets/source-parts-mockup.jpg" alt="A mockup of Durham Ones WordPress website.">
+        
+        </div>
+        <div class="card-content">
+          <h6>SOURCE Parts</h6>
+          <p>A custom Shopify E-Commerce theme built for Source Commericial Appliance Parts. </p>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-php"></i>
+        </div>
+        <div class="card-action">
+          <router-link v-on:click="isHidden = !isHidden" to="/sourceparts">Case Study</router-link>
+           <a href="https://sourcecaps.ca/" target="_blank">View Live</a>
+           
+            
+           
+          
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4 s1">
+      <div class="card">
+        <div class="card-image">
+          <img src="@/assets/wildwildwellness.jpg" alt="Wild Wild Wellness Mockup">
+         
+        </div>
+        <div class="card-content">
+         <h6>Wild Wild Wellness</h6>
+          <p>A customized WordPress site built for Wild Wild Wellness counselling and life coaching.</p>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-php"></i>
+           <i class="fab fa-wordpress"></i>
+       
+        </div>
+        <div class="card-action">
+          <router-link v-on:click="isHidden = !isHidden" to="/wildwildwellness">Case Study</router-link>
+          <a href="http://wildwildwellness.ca" target="_blank">View Live</a>
+        </div>
+      </div>
+    </div>
+  
+    </div>
      
             <div class="row">
               <div class="col s12 m4 s1">
-      <div class="card">
+      <!-- <div class="card">
         <div class="card-image">
           <img src="@/assets/easy_groceries_sc_1.png" alt="Easy Groceries Project.">
          
@@ -164,7 +234,7 @@
           <a href="https://staging.mattfelton.com/easy-groceries" target="_blank">View Live</a>
           <a href="https://github.com/matt-f-95/easy-groceries" target="_blank"><i class="fab fa-github"></i></a>
         </div>
-      </div>
+      </div> -->
     </div>
     </div>
     </div>

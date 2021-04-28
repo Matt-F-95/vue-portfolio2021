@@ -41,7 +41,7 @@
       
     </VueSlickCarousel>
 
-    <a href="https://staging.mattfelton.com/mmdb/#/splash/" target="_blank" class=" btn-large black brand-color">VIEW LIVE SITE</a>
+    <a href="https://staging.mattfelton.com/mmdb/#/splash/" target="_blank" class="viewBtn btn-large black brand-color">VIEW LIVE SITE</a>
   
    </div>
   
@@ -152,6 +152,13 @@ export default {
   .madMovies {
     margin-bottom: 20vh;
   }
+
+    .viewBtn {
+      display: flex;
+      justify-content: center;
+      margin: 10rem auto;
+  }
+
 
 
 </style>

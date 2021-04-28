@@ -30,7 +30,7 @@
       <div><img src="@/assets/easy_groceries_product_sc.png" alt="Easy Groceries Products Page."></div>
     </VueSlickCarousel>
 
-    <a href="https://staging.mattfelton.com/easy-groceries" target="_blank" class=" btn-large black brand-color">VIEW LIVE SITE</a>
+    <a href="https://staging.mattfelton.com/easy-groceries" target="_blank" class="viewBtn btn-large black brand-color">VIEW LIVE SITE</a>
   
    </div>
   
@@ -100,6 +100,13 @@ export default {
   .brand-color:hover {
   background: #F50057 !important;
 }
+
+  .viewBtn {
+      display: flex;
+      justify-content: center;
+      margin: 10rem auto;
+  }
+
 
 
 </style>

@@ -45,7 +45,8 @@
     </VueSlickCarousel>
 
 
-    <a href="https://staging.mattfelton.com/final-react-photobooth/" target="_blank" class=" btn-large black brand-color">VIEW LIVE SITE</a>
+    <a href="https://staging.mattfelton.com/final-react-photobooth/" target="_blank" class="viewBtn btn-large black brand-color">VIEW LIVE SITE</a>
+
 
   
    </div>
@@ -122,6 +123,13 @@ export default {
     margin-bottom: 20em;
 
   }
+
+    .viewBtn {
+      display: flex;
+      justify-content: center;
+      margin: 10rem auto;
+  }
+
 
 
 </style>

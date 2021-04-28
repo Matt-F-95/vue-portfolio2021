@@ -68,12 +68,27 @@
   color: #fff;
 }
 
+  .viewBtn {
+      display: flex;
+      justify-content: center;
+      margin: 10rem auto;
+  }
+
+
 .brand-color {
   background: #252A34;
 }
 .brand-color:hover {
   background: #F50057;
 }
+.brand-color-2 {
+  background: #f2f2f2;
+}
+.brand-color-2:hover {
+  background: #f50057;
+}
+
+
 
 
 .application {
@@ -113,4 +128,6 @@ svg {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+
 </style>

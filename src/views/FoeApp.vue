@@ -42,7 +42,7 @@
       
     </VueSlickCarousel>
 
-    <a href="https://staging.mattfelton.com/foe-app" target="_blank" class=" btn-large black brand-color">VIEW LIVE SITE</a>
+    <a href="https://staging.mattfelton.com/foe-app" target="_blank" class="viewBtn btn-large black brand-color">VIEW LIVE SITE</a>
   
    </div>
   
@@ -146,12 +146,17 @@ export default {
 
   }
 
+    .viewBtn {
+      display: flex;
+      justify-content: center;
+      margin: 10rem auto;
+  }
 
   .brand-color {
-  background: #252A34 !important;
-}
-.brand-color:hover {
-  background: #F50057 !important;
-} 
+    background: #252A34 !important;
+  }
+  .brand-color:hover {
+    background: #F50057 !important;
+  } 
 
 </style>

@@ -40,7 +40,7 @@
       <div><img src="@/assets/action-resources-page.jpg" alt="Action Restaurant Equipment Services Mockup."></div>
     </VueSlickCarousel>
 
-  <a href="https://staging.mattfelton.com/actionltd" target="_blank" class=" btn-large black brand-color">VIEW LIVE SITE</a>
+  <a href="https://staging.mattfelton.com/actionltd" target="_blank" class="viewBtn btn-large black brand-color">VIEW LIVE SITE</a>
   
    </div>
   
@@ -156,6 +156,13 @@ export default {
   .brand-color:hover {
   background: #F50057 !important;
 }
+
+  .viewBtn {
+      display: flex;
+      justify-content: center;
+      margin: 10rem auto;
+  }
+
 
 
 </style>

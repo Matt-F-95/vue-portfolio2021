@@ -32,16 +32,16 @@
     <span>Designs</span>
 
      <VueSlickCarousel :arrows="true" :dots="true" v-bind="settings">
-      <div><img src="@/assets/durham1-screenshot1.jpg" alt="DurhamONE Website Screen Shot."></div>
-      <div><img src="@/assets/durham1-about.jpg" alt="DurhamONE Website Screen Shot."></div>
-      <div><img src="@/assets/durham1-cut-the-talk.jpg" alt="DurhamONE Website Screen Shot."></div>
-      <div><img src="@/assets/durham1-dine-and-talk.jpg" alt="DurhamONE Website Screen Shot."></div>
-      <div><img src="@/assets/durham1-events.jpg" alt="DurhamONE Website Screen Shot."></div>
-      <div><img src="@/assets/durham1-gallery.jpg" alt="DurhamONE Website Screen Shot."></div>
+      <div><img src="@/assets/coming-soon-mockup.jpg" alt="DurhamONE Website Screen Shot."></div>
+      <div><img src="@/assets/coming-soon-mockup.jpg" alt="DurhamONE Website Screen Shot."></div>
+      <div><img src="@/assets/coming-soon-mockup.jpg" alt="DurhamONE Website Screen Shot."></div>
+      <div><img src="@/assets/coming-soon-mockup.jpg" alt="DurhamONE Website Screen Shot."></div>
+      <div><img src="@/assets/coming-soon-mockup.jpg" alt="DurhamONE Website Screen Shot."></div>
+      <div><img src="@/assets/coming-soon-mockup.jpg" alt="DurhamONE Website Screen Shot."></div>
       
     </VueSlickCarousel>
 
-  <a href="https://durham1.ca" target="_blank" class=" btn-large black brand-color">VIEW LIVE SITE</a>
+  <a href="https://durham1.ca" target="_blank" class="viewBtn btn-large black brand-color">VIEW LIVE SITE</a>
   
    </div>
   
@@ -156,6 +156,13 @@ export default {
   .brand-color:hover {
   background: #F50057 !important;
 }
+
+  .viewBtn {
+      display: flex;
+      justify-content: center;
+      margin: 10rem auto;
+  }
+
 
 
 </style>

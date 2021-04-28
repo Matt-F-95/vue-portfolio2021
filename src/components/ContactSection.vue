@@ -3,15 +3,9 @@
       <div class="container" id="contact">
           <div class="row">
               <div class="col s12 m12 l12">
-                   <h2 class="center-align">Let's Connect</h2>
+                   <h2 class="center-align contactHeader">Let's Connect</h2>
     
-          <!-- <FormulateInput type="text" placeholder="First Name" />
-          <FormulateInput type="text" placeholder="Last Name" />
-          <FormulateInput type="email" placeholder="youremail@yourprovider.com" name="email" validation="required|email" error-behavior="live"/>
-          <FormulateInput type="textarea" validation="required|max:1000,length" validation-name="Message"/>
-          <FormulateForm @submit="showAlert">
-          <FormulateInput type="submit" name="Send message"/>
-          </FormulateForm> -->
+        
           <form
   action="https://formspree.io/f/xgerwjol"
   method="POST"
@@ -28,9 +22,7 @@
     <textarea rows="15" name="message"></textarea>
   </label>
 
-  <!-- your other form fields go here -->
-
-  <button type="submit">Send</button>
+  <button class="brand-color-2" type="submit">Send</button>
 </form>
           </div>
           </div>
@@ -72,6 +64,10 @@ export default {
     color: #fff;
     margin-bottom: 1em;
     
+}
+
+.contactHeader {
+  margin-bottom: 6rem;
 }
 
 button {
